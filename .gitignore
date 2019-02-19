@@ -104,6 +104,4 @@ venv.bak/
 .mypy_cache/
 
 # Directories potentially created on remote AFP share
-/trade/keys 
-node_modules
-.idea
+/trade/keys	
