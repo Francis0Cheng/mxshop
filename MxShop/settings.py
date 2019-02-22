@@ -122,7 +122,7 @@ AUTHENTICATION_BACKENDS = (
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mxshop',        #数据库名字
+        'NAME': 'mxshop4',        #数据库名字
         'USER': 'root',          #账号
         'PASSWORD': 'm',    #密码
         # 'HOST': '47.93.198.159',     #IP
