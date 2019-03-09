@@ -1,0 +1,2048 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[22/Feb/2019 17:28:21] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:28:21] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:28:21] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:28:21] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:28:24] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:28:24] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:28:24] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:28:24] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:28:24] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:28:36] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:28:36] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:28:36] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:28:36] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:28:36] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:28:38] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:28:38] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:28:38] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:28:38] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:28:38] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:28:39] "GET /hotsearchs/ HTTP/1.1" 200 2
+Not Found: /categorys/15/
+[22/Feb/2019 17:28:39] "GET /categorys/15/ HTTP/1.1" 404 23
+[22/Feb/2019 17:28:39] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:28:39] "GET /goods/?page=1&top_category=15&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 52
+[22/Feb/2019 17:28:43] "GET /categorys/2/ HTTP/1.1" 200 154
+[22/Feb/2019 17:28:43] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[22/Feb/2019 17:28:43] "GET /media/goods/images/19.jpg HTTP/1.1" 200 15375
+[22/Feb/2019 17:28:43] "GET /media/goods/images/20.jpg HTTP/1.1" 200 12368
+[22/Feb/2019 17:28:43] "GET /media/goods/images/21.jpg HTTP/1.1" 200 38019
+[22/Feb/2019 17:28:43] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[22/Feb/2019 17:28:43] "GET /media/goods/images/26.jpg HTTP/1.1" 200 11121
+[22/Feb/2019 17:28:43] "GET /media/goods/images/24.jpg HTTP/1.1" 200 11665
+[22/Feb/2019 17:28:43] "GET /media/goods/images/25.jpg HTTP/1.1" 200 4670
+[22/Feb/2019 17:28:43] "GET /media/goods/images/27.jpg HTTP/1.1" 200 10128
+[22/Feb/2019 17:28:43] "GET /media/goods/images/28.jpg HTTP/1.1" 200 10127
+[22/Feb/2019 17:28:43] "GET /media/goods/images/29.jpg HTTP/1.1" 200 17433
+[22/Feb/2019 17:28:43] "GET /media/goods/images/30.jpg HTTP/1.1" 200 12505
+[22/Feb/2019 17:28:44] "GET /categorys/7/ HTTP/1.1" 200 160
+[22/Feb/2019 17:28:44] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[22/Feb/2019 17:28:44] "GET /media/goods/images/89.jpg HTTP/1.1" 200 7068
+[22/Feb/2019 17:28:44] "GET /media/goods/images/91.jpg HTTP/1.1" 200 107531
+[22/Feb/2019 17:28:44] "GET /media/goods/images/92.jpg HTTP/1.1" 200 5055
+[22/Feb/2019 17:28:44] "GET /media/goods/images/93.jpg HTTP/1.1" 200 54306
+[22/Feb/2019 17:28:44] "GET /media/goods/images/94.jpg HTTP/1.1" 200 7057
+[22/Feb/2019 17:28:48] "GET /media/goods/images/90.jpg HTTP/1.1" 200 529746
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[22/Feb/2019 17:30:16] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:30:16] "GET /categorys/7/ HTTP/1.1" 200 160
+[22/Feb/2019 17:30:16] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[22/Feb/2019 17:32:42] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:32:42] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:32:42] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:32:42] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:32:51] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:32:51] "GET /categorys/10/ HTTP/1.1" 200 159
+[22/Feb/2019 17:32:51] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:32:51] "GET /goods/?page=1&top_category=10&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 34974
+[22/Feb/2019 17:32:52] "GET /media/goods/images/110.jpg HTTP/1.1" 200 1761
+[22/Feb/2019 17:32:52] "GET /media/goods/images/111.jpg HTTP/1.1" 200 5467
+[22/Feb/2019 17:32:52] "GET /media/goods/images/113.jpg HTTP/1.1" 200 5657
+[22/Feb/2019 17:32:52] "GET /media/goods/images/112.jpg HTTP/1.1" 200 3843
+[22/Feb/2019 17:32:52] "GET /media/goods/images/114.jpg HTTP/1.1" 200 4448
+[22/Feb/2019 17:32:52] "GET /media/goods/images/115.jpg HTTP/1.1" 200 3779
+[22/Feb/2019 17:32:52] "GET /media/goods/images/116.jpg HTTP/1.1" 200 5569
+[22/Feb/2019 17:32:52] "GET /media/goods/images/117.jpg HTTP/1.1" 200 4342
+[22/Feb/2019 17:32:52] "GET /media/goods/images/119.jpg HTTP/1.1" 200 4777
+[22/Feb/2019 17:32:52] "GET /media/goods/images/118.jpg HTTP/1.1" 200 5032
+[22/Feb/2019 17:32:52] "GET /media/goods/images/121.jpg HTTP/1.1" 200 5034
+[22/Feb/2019 17:32:52] "GET /media/goods/images/120.jpg HTTP/1.1" 200 4918
+[22/Feb/2019 17:32:59] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:32:59] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:32:59] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:33:00] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:33:00] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:33:01] "GET /categorys/4/ HTTP/1.1" 200 156
+[22/Feb/2019 17:33:01] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[22/Feb/2019 17:33:01] "GET /media/goods/images/55.jpg HTTP/1.1" 200 5841
+[22/Feb/2019 17:33:01] "GET /media/goods/images/56.jpg HTTP/1.1" 200 2352
+[22/Feb/2019 17:33:01] "GET /media/goods/images/57.jpg HTTP/1.1" 200 17890
+[22/Feb/2019 17:33:01] "GET /media/goods/images/62.jpg HTTP/1.1" 200 54965
+[22/Feb/2019 17:33:01] "GET /media/goods/images/61.jpg HTTP/1.1" 200 23750
+[22/Feb/2019 17:33:01] "GET /media/goods/images/58.jpg HTTP/1.1" 200 9372
+[22/Feb/2019 17:33:01] "GET /media/goods/images/59.jpg HTTP/1.1" 200 5604
+[22/Feb/2019 17:33:01] "GET /media/goods/images/60.jpg HTTP/1.1" 200 3071
+[22/Feb/2019 17:33:01] "GET /media/goods/images/63.jpg HTTP/1.1" 200 3503
+[22/Feb/2019 17:33:01] "GET /media/goods/images/64.jpg HTTP/1.1" 200 12258
+[22/Feb/2019 17:33:01] "GET /media/goods/images/65.jpg HTTP/1.1" 200 4897
+[22/Feb/2019 17:33:01] "GET /media/goods/images/66.jpg HTTP/1.1" 200 2418
+[22/Feb/2019 17:33:02] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:33:02] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:33:02] "GET /goods/56/ HTTP/1.1" 200 3607
+[22/Feb/2019 17:33:02] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 17:33:03] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[22/Feb/2019 17:33:03] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+[22/Feb/2019 17:33:03] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[22/Feb/2019 17:33:07] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:33:07] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 17:33:07] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:33:07] "GET /goods/58/ HTTP/1.1" 200 1919
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[22/Feb/2019 17:42:38] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:42:38] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:42:38] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:42:39] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:42:39] "GET /media/banner/banner1.png HTTP/1.1" 304 0
+[22/Feb/2019 17:42:39] "GET /media/goods/images/15.jpg HTTP/1.1" 304 0
+[22/Feb/2019 17:42:39] "GET /media/goods/images/10.jpg HTTP/1.1" 304 0
+[22/Feb/2019 17:42:39] "GET /media/goods/images/22.jpg HTTP/1.1" 304 0
+[22/Feb/2019 17:42:39] "GET /media/goods/images/36.jpg HTTP/1.1" 304 0
+[22/Feb/2019 17:42:39] "GET /media/goods/images/70.jpg HTTP/1.1" 304 0
+[22/Feb/2019 17:42:39] "GET /media/goods/images/98.jpg HTTP/1.1" 304 0
+[22/Feb/2019 17:42:39] "GET /media/goods/images/109.jpg HTTP/1.1" 304 0
+[22/Feb/2019 17:42:41] "GET /hotsearchs/ HTTP/1.1" 200 2
+Not Found: /categorys/15/
+[22/Feb/2019 17:42:41] "GET /categorys/15/ HTTP/1.1" 404 23
+[22/Feb/2019 17:42:41] "GET /goods/?page=1&top_category=15&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 52
+[22/Feb/2019 17:42:41] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:42:45] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:42:45] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:42:45] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:42:45] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:42:45] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:42:47] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:42:47] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:42:47] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:42:47] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:42:47] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:42:49] "GET /categorys/2/ HTTP/1.1" 200 154
+[22/Feb/2019 17:42:49] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[22/Feb/2019 17:42:49] "GET /categorys/4/ HTTP/1.1" 200 156
+[22/Feb/2019 17:42:49] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[22/Feb/2019 17:42:51] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[22/Feb/2019 17:42:51] "GET /categorys/4/ HTTP/1.1" 200 156
+[22/Feb/2019 17:42:51] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:42:51] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:43:00] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:43:00] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:43:00] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:43:00] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:43:01] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[22/Feb/2019 17:43:09] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:43:09] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:43:09] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:43:09] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:43:13] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:43:13] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:43:13] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:43:13] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:43:13] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:43:15] "GET /categorys/7/ HTTP/1.1" 200 160
+[22/Feb/2019 17:43:15] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[22/Feb/2019 17:43:17] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:43:17] "GET /goods/91/ HTTP/1.1" 200 6135
+[22/Feb/2019 17:43:17] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:43:17] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 17:46:36] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:46:36] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:46:36] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 17:46:36] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 17:46:36] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 17:46:36] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[22/Feb/2019 17:46:36] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[22/Feb/2019 17:46:37] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[22/Feb/2019 17:46:37] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[22/Feb/2019 17:46:37] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[22/Feb/2019 17:46:38] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[22/Feb/2019 17:46:38] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[22/Feb/2019 17:46:38] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[22/Feb/2019 17:46:46] "GET /categorys/4/ HTTP/1.1" 200 156
+[22/Feb/2019 17:46:46] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[22/Feb/2019 17:46:46] "GET /media/goods/images/65.jpg HTTP/1.1" 200 4897
+[22/Feb/2019 17:46:46] "GET /media/goods/images/61.jpg HTTP/1.1" 200 23750
+[22/Feb/2019 17:46:46] "GET /media/goods/images/63.jpg HTTP/1.1" 200 3503
+[22/Feb/2019 17:46:46] "GET /media/goods/images/66.jpg HTTP/1.1" 200 2418
+[22/Feb/2019 17:46:46] "GET /media/goods/images/64.jpg HTTP/1.1" 200 12258
+[22/Feb/2019 17:46:46] "GET /media/goods/images/62.jpg HTTP/1.1" 200 54965
+[22/Feb/2019 17:46:46] "GET /media/goods/images/57.jpg HTTP/1.1" 200 17890
+[22/Feb/2019 17:46:46] "GET /media/goods/images/58.jpg HTTP/1.1" 200 9372
+[22/Feb/2019 17:46:46] "GET /media/goods/images/55.jpg HTTP/1.1" 200 5841
+[22/Feb/2019 17:46:46] "GET /media/goods/images/56.jpg HTTP/1.1" 200 2352
+[22/Feb/2019 17:46:46] "GET /media/goods/images/59.jpg HTTP/1.1" 200 5604
+[22/Feb/2019 17:46:46] "GET /media/goods/images/60.jpg HTTP/1.1" 200 3071
+[22/Feb/2019 17:46:47] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:46:47] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:46:47] "GET /goods/55/ HTTP/1.1" 200 3444
+[22/Feb/2019 17:46:47] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 17:46:48] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[22/Feb/2019 17:46:48] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[22/Feb/2019 17:46:48] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[22/Feb/2019 17:46:48] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+[22/Feb/2019 17:46:54] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:46:54] "GET /goods/18/ HTTP/1.1" 200 1671
+[22/Feb/2019 17:46:54] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:46:54] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 17:46:57] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:46:57] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 17:46:57] "GET /goods/23/ HTTP/1.1" 200 1005
+[22/Feb/2019 17:46:57] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:47:03] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 17:47:03] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 17:47:03] "GET /goods/51/ HTTP/1.1" 200 3314
+[22/Feb/2019 17:47:03] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 17:47:07] "GET /categorys/7/ HTTP/1.1" 200 160
+[22/Feb/2019 17:47:07] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[22/Feb/2019 17:47:08] "GET /media/goods/images/89.jpg HTTP/1.1" 200 7068
+[22/Feb/2019 17:47:08] "GET /media/goods/images/93.jpg HTTP/1.1" 200 54306
+[22/Feb/2019 17:47:08] "GET /media/goods/images/94.jpg HTTP/1.1" 200 7057
+[22/Feb/2019 17:47:08] "GET /media/goods/images/92.jpg HTTP/1.1" 200 5055
+[22/Feb/2019 17:47:08] "GET /media/goods/images/91.jpg HTTP/1.1" 200 107531
+[22/Feb/2019 17:47:11] "GET /media/goods/images/90.jpg HTTP/1.1" 200 450560
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[22/Feb/2019 19:06:02] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:06:02] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 19:06:02] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 19:06:02] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 19:06:03] "GET /media/banner/banner1.png HTTP/1.1" 304 0
+[22/Feb/2019 19:06:03] "GET /media/goods/images/10.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:03] "GET /media/goods/images/15.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:03] "GET /media/goods/images/36.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:03] "GET /media/goods/images/70.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:03] "GET /media/goods/images/98.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:03] "GET /media/goods/images/22.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:03] "GET /media/goods/images/109.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:05] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:06:05] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 19:06:05] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 19:06:05] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 19:06:05] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:06:07] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:06:07] "GET /categorys/10/ HTTP/1.1" 200 159
+[22/Feb/2019 19:06:07] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:06:07] "GET /goods/?page=1&top_category=10&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 34974
+[22/Feb/2019 19:06:07] "GET /media/goods/images/117.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:07] "GET /media/goods/images/111.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:07] "GET /media/goods/images/116.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:07] "GET /media/goods/images/112.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:07] "GET /media/goods/images/110.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:07] "GET /media/goods/images/113.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:07] "GET /media/goods/images/114.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:07] "GET /media/goods/images/115.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:07] "GET /media/goods/images/119.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:07] "GET /media/goods/images/120.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:07] "GET /media/goods/images/118.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:07] "GET /media/goods/images/121.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:12] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:06:12] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:06:12] "GET /goods/112/ HTTP/1.1" 200 5427
+[22/Feb/2019 19:06:12] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 19:06:13] "GET /media/goods/images/18.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:13] "GET /media/goods/images/39.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:13] "GET /media/goods/images/51.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:06:13] "GET /media/goods/images/23.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:31] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:07:31] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 19:07:31] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 19:07:31] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:07:31] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 19:07:35] "GET /categorys/7/ HTTP/1.1" 200 160
+[22/Feb/2019 19:07:36] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[22/Feb/2019 19:07:36] "GET /media/goods/images/89.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:36] "GET /media/goods/images/90.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:36] "GET /media/goods/images/91.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:36] "GET /media/goods/images/92.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:36] "GET /media/goods/images/93.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:36] "GET /media/goods/images/94.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:36] "GET /categorys/4/ HTTP/1.1" 200 156
+[22/Feb/2019 19:07:36] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[22/Feb/2019 19:07:36] "GET /media/goods/images/62.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:36] "GET /media/goods/images/63.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:36] "GET /media/goods/images/61.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:36] "GET /media/goods/images/64.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:37] "GET /media/goods/images/65.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:37] "GET /media/goods/images/66.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:37] "GET /media/goods/images/55.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:37] "GET /media/goods/images/57.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:37] "GET /media/goods/images/56.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:37] "GET /media/goods/images/58.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:37] "GET /media/goods/images/59.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:37] "GET /media/goods/images/60.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:07:38] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:07:38] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:07:38] "GET /goods/57/ HTTP/1.1" 200 2637
+[22/Feb/2019 19:07:38] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 19:15:31] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[22/Feb/2019 19:15:32] "GET /categorys/4/ HTTP/1.1" 200 156
+[22/Feb/2019 19:15:32] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[22/Feb/2019 19:15:33] "GET /categorys/5/ HTTP/1.1" 200 161
+[22/Feb/2019 19:15:33] "GET /goods/?page=1&top_category=5&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36647
+[22/Feb/2019 19:15:33] "GET /media/goods/images/73.jpg HTTP/1.1" 200 21959
+[22/Feb/2019 19:15:33] "GET /media/goods/images/74.jpg HTTP/1.1" 200 21959
+[22/Feb/2019 19:15:33] "GET /media/goods/images/75.jpg HTTP/1.1" 200 21959
+[22/Feb/2019 19:15:33] "GET /media/goods/images/76.jpg HTTP/1.1" 200 21959
+[22/Feb/2019 19:15:33] "GET /media/goods/images/78.jpg HTTP/1.1" 200 21959
+[22/Feb/2019 19:15:33] "GET /media/goods/images/77.jpg HTTP/1.1" 200 21959
+[22/Feb/2019 19:15:33] "GET /media/goods/images/79.jpg HTTP/1.1" 200 10086
+[22/Feb/2019 19:15:33] "GET /media/goods/images/81.jpg HTTP/1.1" 200 21959
+[22/Feb/2019 19:15:33] "GET /media/goods/images/82.jpg HTTP/1.1" 200 6141
+[22/Feb/2019 19:15:33] "GET /media/goods/images/80.jpg HTTP/1.1" 200 5075
+[22/Feb/2019 19:15:34] "GET /media/goods/images/83.jpg HTTP/1.1" 200 22024
+[22/Feb/2019 19:15:35] "GET /categorys/7/ HTTP/1.1" 200 160
+[22/Feb/2019 19:15:35] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[22/Feb/2019 19:15:37] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:15:37] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:15:37] "GET /goods/93/ HTTP/1.1" 200 4910
+[22/Feb/2019 19:15:37] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 19:15:50] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 19:15:50] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 19:15:50] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 19:18:35] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:18:35] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:18:36] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 19:18:36] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 19:18:36] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 19:18:38] "GET /hotsearchs/ HTTP/1.1" 200 2
+Not Found: /categorys/70/
+[22/Feb/2019 19:18:39] "GET /categorys/70/ HTTP/1.1" 404 23
+[22/Feb/2019 19:18:39] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:18:39] "GET /goods/?page=1&top_category=70&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 52
+[22/Feb/2019 19:18:42] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:18:42] "GET /goods/?page=1&top_category=70&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 52
+Not Found: /categorys/70/
+[22/Feb/2019 19:18:42] "GET /categorys/70/ HTTP/1.1" 404 23
+[22/Feb/2019 19:18:42] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:18:46] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:18:46] "GET /categorys/10/ HTTP/1.1" 200 159
+[22/Feb/2019 19:18:46] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:18:46] "GET /goods/?page=1&top_category=10&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 34974
+[22/Feb/2019 19:18:49] "GET /hotsearchs/ HTTP/1.1" 200 2
+Not Found: /categorys/15/
+[22/Feb/2019 19:18:49] "GET /categorys/15/ HTTP/1.1" 404 23
+[22/Feb/2019 19:18:49] "GET /goods/?page=1&top_category=15&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 52
+[22/Feb/2019 19:18:49] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:18:53] "GET /categorys/2/ HTTP/1.1" 200 154
+[22/Feb/2019 19:18:53] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[22/Feb/2019 19:18:53] "GET /media/goods/images/19.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:18:53] "GET /media/goods/images/20.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:18:53] "GET /media/goods/images/21.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:18:53] "GET /media/goods/images/28.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:18:53] "GET /media/goods/images/30.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:18:53] "GET /media/goods/images/27.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:18:53] "GET /media/goods/images/29.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:18:53] "GET /media/goods/images/24.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:18:53] "GET /media/goods/images/25.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:18:53] "GET /media/goods/images/26.jpg HTTP/1.1" 304 0
+[22/Feb/2019 19:18:54] "GET /categorys/4/ HTTP/1.1" 200 156
+[22/Feb/2019 19:18:54] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[22/Feb/2019 19:18:55] "GET /categorys/7/ HTTP/1.1" 200 160
+[22/Feb/2019 19:18:55] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[22/Feb/2019 19:18:57] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:18:57] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:18:57] "GET /goods/90/ HTTP/1.1" 200 5612
+[22/Feb/2019 19:18:57] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 19:19:07] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[22/Feb/2019 19:19:07] "GET /categorys/4/ HTTP/1.1" 200 156
+[22/Feb/2019 19:19:07] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[22/Feb/2019 19:19:37] "GET /goods/?page=1&top_category=5&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36647
+[22/Feb/2019 19:19:41] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:19:41] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:19:41] "GET /goods/82/ HTTP/1.1" 200 2016
+[22/Feb/2019 19:19:41] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[22/Feb/2019 19:20:14] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[22/Feb/2019 19:20:19] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:20:20] "GET /goods/21/ HTTP/1.1" 200 3272
+[22/Feb/2019 19:20:20] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:20:20] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 19:20:25] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:20:25] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:20:25] "GET /goods/20/ HTTP/1.1" 200 2877
+[22/Feb/2019 19:20:25] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[22/Feb/2019 19:20:28] "GET /categorys/7/ HTTP/1.1" 200 160
+[22/Feb/2019 19:20:28] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[22/Feb/2019 19:20:29] "GET /categorys/9/ HTTP/1.1" 200 163
+[22/Feb/2019 19:20:30] "GET /goods/?page=1&top_category=9&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 173924
+[22/Feb/2019 19:20:30] "GET /media/goods/images/107.jpg HTTP/1.1" 200 5169
+[22/Feb/2019 19:20:30] "GET /media/goods/images/108.jpg HTTP/1.1" 200 7411
+[22/Feb/2019 19:20:30] "GET /media/goods/images/106.jpg HTTP/1.1" 200 7411
+[22/Feb/2019 19:21:25] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:21:25] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:21:25] "GET /banners/ HTTP/1.1" 200 124
+[22/Feb/2019 19:21:25] "GET /indexgoods/ HTTP/1.1" 200 2
+[22/Feb/2019 19:21:25] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[22/Feb/2019 19:21:28] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:21:28] "GET /categorys/10/ HTTP/1.1" 200 159
+[22/Feb/2019 19:21:28] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:21:28] "GET /goods/?page=1&top_category=10&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 34974
+[22/Feb/2019 19:21:31] "GET /hotsearchs/ HTTP/1.1" 200 2
+Not Found: /categorys/15/
+[22/Feb/2019 19:21:31] "GET /categorys/15/ HTTP/1.1" 404 23
+[22/Feb/2019 19:21:31] "GET /goods/?page=1&top_category=15&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 52
+[22/Feb/2019 19:21:31] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:21:39] "GET /categorys/2/ HTTP/1.1" 200 154
+[22/Feb/2019 19:21:39] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[22/Feb/2019 19:21:41] "GET /hotsearchs/ HTTP/1.1" 200 2
+[22/Feb/2019 19:21:41] "GET /categorys/ HTTP/1.1" 200 1602
+[22/Feb/2019 19:21:41] "GET /goods/21/ HTTP/1.1" 200 3272
+[22/Feb/2019 19:21:41] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[22/Feb/2019 19:34:06] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[23/Feb/2019 02:47:06] "GET / HTTP/1.0" 200 693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[23/Feb/2019 05:39:28] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[23/Feb/2019 08:09:09] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Feb/2019 08:09:09] "  /*à     Cookie: mstshash=Administr" 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[23/Feb/2019 11:03:32] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 11:03:32] "GET /banners/ HTTP/1.1" 200 124
+[23/Feb/2019 11:03:32] "GET /indexgoods/ HTTP/1.1" 200 2
+[23/Feb/2019 11:03:32] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[23/Feb/2019 11:03:32] "GET /media/banner/banner1.png HTTP/1.1" 304 0
+[23/Feb/2019 11:03:33] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[23/Feb/2019 11:03:33] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[23/Feb/2019 11:03:33] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[23/Feb/2019 11:03:33] "GET /media/goods/images/22.jpg HTTP/1.1" 304 0
+[23/Feb/2019 11:03:33] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[23/Feb/2019 11:03:33] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[23/Feb/2019 11:03:33] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[23/Feb/2019 11:03:37] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 11:03:37] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 11:03:37] "GET /banners/ HTTP/1.1" 200 124
+[23/Feb/2019 11:03:37] "GET /indexgoods/ HTTP/1.1" 200 2
+[23/Feb/2019 11:03:37] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[23/Feb/2019 11:03:38] "GET /categorys/2/ HTTP/1.1" 200 154
+[23/Feb/2019 11:03:38] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[23/Feb/2019 11:03:38] "GET /media/goods/images/26.jpg HTTP/1.1" 200 11121
+[23/Feb/2019 11:03:38] "GET /media/goods/images/28.jpg HTTP/1.1" 200 10127
+[23/Feb/2019 11:03:38] "GET /media/goods/images/30.jpg HTTP/1.1" 200 12505
+[23/Feb/2019 11:03:38] "GET /media/goods/images/27.jpg HTTP/1.1" 200 10128
+[23/Feb/2019 11:03:38] "GET /media/goods/images/29.jpg HTTP/1.1" 200 17433
+[23/Feb/2019 11:03:38] "GET /media/goods/images/19.jpg HTTP/1.1" 200 15375
+[23/Feb/2019 11:03:38] "GET /media/goods/images/20.jpg HTTP/1.1" 200 12368
+[23/Feb/2019 11:03:38] "GET /media/goods/images/21.jpg HTTP/1.1" 200 38019
+[23/Feb/2019 11:03:38] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[23/Feb/2019 11:03:38] "GET /media/goods/images/24.jpg HTTP/1.1" 200 11665
+[23/Feb/2019 11:03:38] "GET /media/goods/images/25.jpg HTTP/1.1" 200 4670
+[23/Feb/2019 11:03:40] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 11:03:40] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 11:03:40] "GET /goods/22/ HTTP/1.1" 200 3263
+[23/Feb/2019 11:03:40] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[23/Feb/2019 11:03:40] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[23/Feb/2019 11:03:40] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[23/Feb/2019 11:03:40] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+[23/Feb/2019 13:49:14] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 13:49:14] "GET /banners/ HTTP/1.1" 200 124
+[23/Feb/2019 13:49:14] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 13:49:14] "GET /indexgoods/ HTTP/1.1" 200 2
+[23/Feb/2019 13:49:14] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[23/Feb/2019 13:49:14] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[23/Feb/2019 13:49:14] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[23/Feb/2019 13:49:14] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[23/Feb/2019 13:49:14] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[23/Feb/2019 13:49:14] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[23/Feb/2019 13:49:14] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[23/Feb/2019 13:49:14] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[23/Feb/2019 13:49:15] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[23/Feb/2019 14:00:36] "GET /categorys/4/ HTTP/1.1" 200 156
+[23/Feb/2019 14:00:36] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[23/Feb/2019 14:00:36] "GET /media/goods/images/55.jpg HTTP/1.1" 200 5841
+[23/Feb/2019 14:00:36] "GET /media/goods/images/62.jpg HTTP/1.1" 200 54965
+[23/Feb/2019 14:00:36] "GET /media/goods/images/57.jpg HTTP/1.1" 200 17890
+[23/Feb/2019 14:00:36] "GET /media/goods/images/56.jpg HTTP/1.1" 200 2352
+[23/Feb/2019 14:00:36] "GET /media/goods/images/61.jpg HTTP/1.1" 200 23750
+[23/Feb/2019 14:00:36] "GET /media/goods/images/58.jpg HTTP/1.1" 200 9372
+[23/Feb/2019 14:00:36] "GET /media/goods/images/59.jpg HTTP/1.1" 200 5604
+[23/Feb/2019 14:00:36] "GET /media/goods/images/60.jpg HTTP/1.1" 200 3071
+[23/Feb/2019 14:00:36] "GET /media/goods/images/63.jpg HTTP/1.1" 200 3503
+[23/Feb/2019 14:00:36] "GET /media/goods/images/64.jpg HTTP/1.1" 200 12258
+[23/Feb/2019 14:00:36] "GET /media/goods/images/65.jpg HTTP/1.1" 200 4897
+[23/Feb/2019 14:00:36] "GET /media/goods/images/66.jpg HTTP/1.1" 200 2418
+[23/Feb/2019 14:00:38] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 14:00:38] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 14:00:38] "GET /goods/57/ HTTP/1.1" 200 2637
+[23/Feb/2019 14:00:38] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[23/Feb/2019 14:00:38] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[23/Feb/2019 14:00:38] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[23/Feb/2019 14:00:38] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[23/Feb/2019 14:00:38] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+[23/Feb/2019 14:00:41] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 14:00:41] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[23/Feb/2019 14:00:41] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 14:00:41] "GET /goods/55/ HTTP/1.1" 200 3444
+[23/Feb/2019 14:00:55] "GET /categorys/7/ HTTP/1.1" 200 160
+[23/Feb/2019 14:00:55] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[23/Feb/2019 14:00:55] "GET /media/goods/images/89.jpg HTTP/1.1" 200 7068
+[23/Feb/2019 14:00:55] "GET /media/goods/images/92.jpg HTTP/1.1" 200 5055
+[23/Feb/2019 14:00:55] "GET /media/goods/images/91.jpg HTTP/1.1" 200 107531
+[23/Feb/2019 14:00:55] "GET /media/goods/images/93.jpg HTTP/1.1" 200 54306
+[23/Feb/2019 14:00:55] "GET /media/goods/images/94.jpg HTTP/1.1" 200 7057
+[23/Feb/2019 14:00:57] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 14:00:57] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 14:00:57] "GET /goods/92/ HTTP/1.1" 200 3119
+[23/Feb/2019 14:00:57] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[23/Feb/2019 14:00:59] "GET /media/goods/images/90.jpg HTTP/1.1" 200 529746
+[23/Feb/2019 15:07:40] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 15:07:40] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 15:07:40] "GET /goods/39/ HTTP/1.1" 200 3539
+[23/Feb/2019 15:07:40] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[23/Feb/2019 15:07:48] "GET /categorys/5/ HTTP/1.1" 200 161
+[23/Feb/2019 15:07:48] "GET /goods/?page=1&top_category=5&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36647
+[23/Feb/2019 15:07:49] "GET /media/goods/images/79.jpg HTTP/1.1" 200 10086
+[23/Feb/2019 15:07:49] "GET /media/goods/images/80.jpg HTTP/1.1" 200 5075
+[23/Feb/2019 15:07:49] "GET /media/goods/images/81.jpg HTTP/1.1" 200 21959
+[23/Feb/2019 15:07:49] "GET /media/goods/images/82.jpg HTTP/1.1" 200 6141
+[23/Feb/2019 15:07:49] "GET /media/goods/images/83.jpg HTTP/1.1" 200 22024
+[23/Feb/2019 15:07:49] "GET /media/goods/images/73.jpg HTTP/1.1" 200 21959
+[23/Feb/2019 15:07:49] "GET /media/goods/images/74.jpg HTTP/1.1" 200 21959
+[23/Feb/2019 15:07:49] "GET /media/goods/images/75.jpg HTTP/1.1" 200 21959
+[23/Feb/2019 15:07:49] "GET /media/goods/images/76.jpg HTTP/1.1" 200 21959
+[23/Feb/2019 15:07:49] "GET /media/goods/images/78.jpg HTTP/1.1" 200 21959
+[23/Feb/2019 15:07:49] "GET /media/goods/images/77.jpg HTTP/1.1" 200 21959
+[23/Feb/2019 15:07:50] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 15:07:50] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 15:07:50] "GET /goods/74/ HTTP/1.1" 200 3919
+[23/Feb/2019 15:07:50] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[23/Feb/2019 15:09:38] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 15:09:38] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 15:09:38] "GET /goods/39/ HTTP/1.1" 200 3539
+[23/Feb/2019 15:09:38] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[23/Feb/2019 15:09:40] "GET /categorys/4/ HTTP/1.1" 200 156
+[23/Feb/2019 15:09:40] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[23/Feb/2019 15:09:44] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 15:09:44] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 15:09:44] "GET /goods/60/ HTTP/1.1" 200 3267
+[23/Feb/2019 15:09:44] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[23/Feb/2019 15:09:50] "GET /categorys/4/ HTTP/1.1" 200 156
+[23/Feb/2019 15:09:50] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[23/Feb/2019 15:09:55] "GET /goods/?page=2&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 22425
+[23/Feb/2019 15:09:55] "GET /media/goods/images/67.jpg HTTP/1.1" 200 4066
+[23/Feb/2019 15:09:55] "GET /media/goods/images/68.jpg HTTP/1.1" 200 2489
+[23/Feb/2019 15:09:55] "GET /media/goods/images/69.jpg HTTP/1.1" 200 44662
+[23/Feb/2019 15:09:55] "GET /media/goods/images/71.jpg HTTP/1.1" 200 92895
+[23/Feb/2019 15:09:55] "GET /media/goods/images/72.jpg HTTP/1.1" 200 31661
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[23/Feb/2019 15:46:24] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[23/Feb/2019 20:10:23] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 20:10:23] "GET /banners/ HTTP/1.1" 200 124
+[23/Feb/2019 20:10:23] "GET /indexgoods/ HTTP/1.1" 200 2
+[23/Feb/2019 20:10:23] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 20:10:23] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[23/Feb/2019 20:10:23] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[23/Feb/2019 20:10:26] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 20:10:26] "GET /banners/ HTTP/1.1" 200 124
+[23/Feb/2019 20:10:26] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[23/Feb/2019 20:10:26] "GET /indexgoods/ HTTP/1.1" 200 2
+[23/Feb/2019 20:10:26] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 20:10:26] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[23/Feb/2019 20:10:29] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 20:10:29] "GET /banners/ HTTP/1.1" 200 124
+[23/Feb/2019 20:10:29] "GET /indexgoods/ HTTP/1.1" 200 2
+[23/Feb/2019 20:10:29] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[23/Feb/2019 20:10:29] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 20:10:29] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[23/Feb/2019 20:10:30] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[23/Feb/2019 20:10:30] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[23/Feb/2019 20:10:30] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[23/Feb/2019 20:10:30] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[23/Feb/2019 20:10:30] "GET /media/goods/images/70.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:10:30] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[23/Feb/2019 20:10:30] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[23/Feb/2019 20:10:48] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 20:10:48] "GET /categorys/4/ HTTP/1.1" 200 156
+[23/Feb/2019 20:10:48] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 20:10:48] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[23/Feb/2019 20:10:51] "GET /categorys/7/ HTTP/1.1" 200 160
+[23/Feb/2019 20:10:51] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[23/Feb/2019 20:10:52] "GET /categorys/2/ HTTP/1.1" 200 154
+[23/Feb/2019 20:10:52] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[23/Feb/2019 20:10:57] "GET /media/goods/images/19.jpg HTTP/1.1" 200 15375
+[23/Feb/2019 20:10:57] "GET /media/goods/images/20.jpg HTTP/1.1" 200 12368
+[23/Feb/2019 20:10:57] "GET /media/goods/images/21.jpg HTTP/1.1" 200 38019
+[23/Feb/2019 20:10:57] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[23/Feb/2019 20:10:58] "GET /media/goods/images/24.jpg HTTP/1.1" 200 11665
+[23/Feb/2019 20:10:58] "GET /media/goods/images/25.jpg HTTP/1.1" 200 4670
+[23/Feb/2019 20:10:58] "GET /media/goods/images/26.jpg HTTP/1.1" 200 11121
+[23/Feb/2019 20:10:58] "GET /media/goods/images/27.jpg HTTP/1.1" 200 10128
+[23/Feb/2019 20:10:58] "GET /media/goods/images/28.jpg HTTP/1.1" 200 10127
+[23/Feb/2019 20:10:58] "GET /media/goods/images/29.jpg HTTP/1.1" 200 17433
+[23/Feb/2019 20:10:59] "GET /media/goods/images/30.jpg HTTP/1.1" 200 12505
+[23/Feb/2019 20:10:59] "GET /media/goods/images/89.jpg HTTP/1.1" 200 7068
+[23/Feb/2019 20:11:00] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 20:11:00] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 20:11:00] "GET /goods/1/ HTTP/1.1" 200 1845
+[23/Feb/2019 20:11:00] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[23/Feb/2019 20:11:00] "GET /media/goods/images/1.jpg HTTP/1.1" 200 10197
+[23/Feb/2019 20:11:01] "GET /media/goods/images/91.jpg HTTP/1.1" 200 107531
+[23/Feb/2019 20:11:01] "GET /media/goods/images/92.jpg HTTP/1.1" 200 5055
+[23/Feb/2019 20:11:01] "GET /media/goods/images/93.jpg HTTP/1.1" 200 54306
+[23/Feb/2019 20:11:01] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[23/Feb/2019 20:11:02] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[23/Feb/2019 20:11:02] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+[23/Feb/2019 20:11:02] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[23/Feb/2019 20:11:02] "GET /media/goods/images/61.jpg HTTP/1.1" 200 23750
+[23/Feb/2019 20:11:03] "GET /media/goods/images/62.jpg HTTP/1.1" 200 54965
+[23/Feb/2019 20:11:03] "GET /media/goods/images/90.jpg HTTP/1.1" 200 114688
+[23/Feb/2019 20:11:06] "GET /media/goods/images/63.jpg HTTP/1.1" 200 3503
+[23/Feb/2019 20:11:07] "GET /media/goods/images/64.jpg HTTP/1.1" 200 12258
+[23/Feb/2019 20:11:07] "GET /media/goods/images/65.jpg HTTP/1.1" 200 4897
+[23/Feb/2019 20:11:07] "GET /media/goods/images/66.jpg HTTP/1.1" 200 2418
+[23/Feb/2019 20:11:07] "GET /media/goods/images/55.jpg HTTP/1.1" 200 5841
+[23/Feb/2019 20:11:07] "GET /media/goods/images/57.jpg HTTP/1.1" 200 17890
+[23/Feb/2019 20:11:08] "GET /media/goods/images/58.jpg HTTP/1.1" 200 9372
+[23/Feb/2019 20:11:08] "GET /media/goods/images/56.jpg HTTP/1.1" 200 2352
+[23/Feb/2019 20:11:08] "GET /categorys/4/ HTTP/1.1" 200 156
+[23/Feb/2019 20:11:08] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[23/Feb/2019 20:11:09] "GET /media/goods/images/59.jpg HTTP/1.1" 200 5604
+[23/Feb/2019 20:11:09] "GET /media/goods/images/60.jpg HTTP/1.1" 200 3071
+[23/Feb/2019 20:11:09] "GET /categorys/2/ HTTP/1.1" 200 154
+[23/Feb/2019 20:11:09] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[23/Feb/2019 20:11:10] "GET /categorys/4/ HTTP/1.1" 200 156
+[23/Feb/2019 20:11:10] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[23/Feb/2019 20:11:10] "GET /media/goods/images/19.jpg HTTP/1.1" 200 15375
+[23/Feb/2019 20:11:10] "GET /media/goods/images/20.jpg HTTP/1.1" 200 12368
+[23/Feb/2019 20:11:18] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 20:11:18] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 20:11:18] "GET /goods/58/ HTTP/1.1" 200 1919
+[23/Feb/2019 20:11:18] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[23/Feb/2019 20:13:05] "GET /categorys/2/ HTTP/1.1" 200 154
+[23/Feb/2019 20:13:05] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[23/Feb/2019 20:13:06] "GET /media/goods/images/19.jpg HTTP/1.1" 200 15375
+[23/Feb/2019 20:13:06] "GET /media/goods/images/21.jpg HTTP/1.1" 200 38019
+[23/Feb/2019 20:13:06] "GET /media/goods/images/20.jpg HTTP/1.1" 200 12368
+[23/Feb/2019 20:13:06] "GET /media/goods/images/24.jpg HTTP/1.1" 200 11665
+[23/Feb/2019 20:13:06] "GET /categorys/7/ HTTP/1.1" 200 160
+[23/Feb/2019 20:13:06] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[23/Feb/2019 20:13:06] "GET /media/goods/images/91.jpg HTTP/1.1" 200 107531
+[23/Feb/2019 20:13:06] "GET /media/goods/images/94.jpg HTTP/1.1" 200 7057
+[23/Feb/2019 20:13:06] "GET /media/goods/images/93.jpg HTTP/1.1" 200 54306
+[23/Feb/2019 20:13:07] "GET /categorys/9/ HTTP/1.1" 200 163
+[23/Feb/2019 20:13:08] "GET /categorys/4/ HTTP/1.1" 200 156
+[23/Feb/2019 20:13:08] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[23/Feb/2019 20:13:08] "GET /goods/?page=1&top_category=9&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 173924
+[23/Feb/2019 20:13:09] "GET /media/goods/images/106.jpg HTTP/1.1" 200 7411
+[23/Feb/2019 20:13:09] "GET /media/goods/images/108.jpg HTTP/1.1" 200 7411
+[23/Feb/2019 20:13:09] "GET /media/goods/images/107.jpg HTTP/1.1" 200 5169
+[23/Feb/2019 20:13:10] "GET /media/goods/images/90.jpg HTTP/1.1" 200 172032
+[23/Feb/2019 20:13:28] "GET /categorys/2/ HTTP/1.1" 200 154
+[23/Feb/2019 20:13:28] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[23/Feb/2019 20:13:28] "GET /categorys/4/ HTTP/1.1" 200 156
+[23/Feb/2019 20:13:28] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[23/Feb/2019 20:15:07] "GET /categorys/4/ HTTP/1.1" 200 156
+[23/Feb/2019 20:15:07] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 20:15:08] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 20:15:08] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[23/Feb/2019 20:29:20] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 20:29:20] "GET /banners/ HTTP/1.1" 200 124
+[23/Feb/2019 20:29:20] "GET /indexgoods/ HTTP/1.1" 200 2
+[23/Feb/2019 20:29:20] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 20:29:20] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[23/Feb/2019 20:29:20] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[23/Feb/2019 20:29:20] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[23/Feb/2019 20:29:20] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[23/Feb/2019 20:29:20] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[23/Feb/2019 20:29:20] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[23/Feb/2019 20:29:20] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[23/Feb/2019 20:29:20] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[23/Feb/2019 20:29:21] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[23/Feb/2019 20:31:22] "GET /hotsearchs/ HTTP/1.1" 200 2
+[23/Feb/2019 20:31:22] "GET /banners/ HTTP/1.1" 200 124
+[23/Feb/2019 20:31:22] "GET /indexgoods/ HTTP/1.1" 200 2
+[23/Feb/2019 20:31:22] "GET /categorys/ HTTP/1.1" 200 1602
+[23/Feb/2019 20:31:22] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[23/Feb/2019 20:31:22] "GET /media/banner/banner1.png HTTP/1.1" 304 0
+[23/Feb/2019 20:31:23] "GET /media/goods/images/10.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:23] "GET /media/goods/images/109.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:23] "GET /media/goods/images/22.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:23] "GET /media/goods/images/15.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:23] "GET /media/goods/images/36.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:23] "GET /media/goods/images/70.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:23] "GET /media/goods/images/98.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:26] "GET /categorys/7/ HTTP/1.1" 200 160
+[23/Feb/2019 20:31:26] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[23/Feb/2019 20:31:26] "GET /media/goods/images/94.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:26] "GET /media/goods/images/92.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:26] "GET /media/goods/images/89.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:26] "GET /media/goods/images/93.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:28] "GET /categorys/4/ HTTP/1.1" 200 156
+[23/Feb/2019 20:31:28] "GET /media/goods/images/91.jpg HTTP/1.1" 200 107531
+[23/Feb/2019 20:31:28] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[23/Feb/2019 20:31:29] "GET /media/goods/images/65.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/66.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/62.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/63.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/61.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/64.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/55.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/57.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/56.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/58.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/59.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/60.jpg HTTP/1.1" 304 0
+[23/Feb/2019 20:31:29] "GET /media/goods/images/90.jpg HTTP/1.1" 200 163840
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[24/Feb/2019 01:53:32] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[24/Feb/2019 06:00:43] "GET / HTTP/1.1" 200 573
+[24/Feb/2019 10:32:27] "GET / HTTP/1.1" 200 6638
+Not Found: /favicon.ico
+[24/Feb/2019 10:32:27] "GET /favicon.ico HTTP/1.1" 404 12256
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[24/Feb/2019 11:57:50] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Feb/2019 16:26:12] "GET /banners/ HTTP/1.1" 200 124
+[24/Feb/2019 16:26:12] "GET /hotsearchs/ HTTP/1.1" 200 2
+[24/Feb/2019 16:26:12] "GET /indexgoods/ HTTP/1.1" 200 2
+[24/Feb/2019 16:26:12] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[24/Feb/2019 16:26:12] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[24/Feb/2019 16:26:14] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[24/Feb/2019 16:26:14] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[24/Feb/2019 16:26:14] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[24/Feb/2019 16:26:14] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[24/Feb/2019 16:26:14] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[24/Feb/2019 16:26:14] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[24/Feb/2019 16:26:15] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[24/Feb/2019 16:26:20] "GET /hotsearchs/ HTTP/1.1" 200 2
+[24/Feb/2019 16:26:20] "GET /banners/ HTTP/1.1" 200 124
+[24/Feb/2019 16:26:20] "GET /indexgoods/ HTTP/1.1" 200 2
+[24/Feb/2019 16:26:20] "GET /categorys/ HTTP/1.1" 200 1602
+[24/Feb/2019 16:26:21] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[24/Feb/2019 16:26:35] "GET /hotsearchs/ HTTP/1.1" 200 2
+[24/Feb/2019 16:26:35] "GET /categorys/10/ HTTP/1.1" 200 159
+[24/Feb/2019 16:26:35] "GET /categorys/ HTTP/1.1" 200 1602
+[24/Feb/2019 16:26:35] "GET /goods/?page=1&top_category=10&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 34974
+[24/Feb/2019 16:26:35] "GET /media/goods/images/110.jpg HTTP/1.1" 200 1761
+[24/Feb/2019 16:26:35] "GET /media/goods/images/111.jpg HTTP/1.1" 200 5467
+[24/Feb/2019 16:26:35] "GET /media/goods/images/112.jpg HTTP/1.1" 200 3843
+[24/Feb/2019 16:26:35] "GET /media/goods/images/113.jpg HTTP/1.1" 200 5657
+[24/Feb/2019 16:26:35] "GET /media/goods/images/114.jpg HTTP/1.1" 200 4448
+[24/Feb/2019 16:26:35] "GET /media/goods/images/115.jpg HTTP/1.1" 200 3779
+[24/Feb/2019 16:26:35] "GET /media/goods/images/117.jpg HTTP/1.1" 200 4342
+[24/Feb/2019 16:26:36] "GET /media/goods/images/116.jpg HTTP/1.1" 200 5569
+[24/Feb/2019 16:26:36] "GET /media/goods/images/118.jpg HTTP/1.1" 200 5032
+[24/Feb/2019 16:26:36] "GET /media/goods/images/120.jpg HTTP/1.1" 200 4918
+[24/Feb/2019 16:26:36] "GET /media/goods/images/119.jpg HTTP/1.1" 200 4777
+[24/Feb/2019 16:26:36] "GET /media/goods/images/121.jpg HTTP/1.1" 200 5034
+[24/Feb/2019 16:26:41] "GET /hotsearchs/ HTTP/1.1" 200 2
+[24/Feb/2019 16:26:41] "GET /categorys/ HTTP/1.1" 200 1602
+[24/Feb/2019 16:26:41] "GET /goods/112/ HTTP/1.1" 200 5427
+[24/Feb/2019 16:26:41] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[24/Feb/2019 16:26:41] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[24/Feb/2019 16:26:41] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[24/Feb/2019 16:26:41] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[24/Feb/2019 16:26:41] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Feb/2019 16:31:01] "GET /banners/ HTTP/1.1" 200 124
+[24/Feb/2019 16:31:01] "GET /hotsearchs/ HTTP/1.1" 200 2
+[24/Feb/2019 16:31:01] "GET /indexgoods/ HTTP/1.1" 200 2
+[24/Feb/2019 16:31:01] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[24/Feb/2019 16:31:01] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[24/Feb/2019 16:31:01] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[24/Feb/2019 16:31:01] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[24/Feb/2019 16:31:01] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[24/Feb/2019 16:31:01] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[24/Feb/2019 16:31:02] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[24/Feb/2019 16:31:02] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[24/Feb/2019 16:31:04] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[24/Feb/2019 16:31:06] "GET /banners/ HTTP/1.1" 200 124
+[24/Feb/2019 16:31:06] "GET /hotsearchs/ HTTP/1.1" 200 2
+[24/Feb/2019 16:31:06] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[24/Feb/2019 16:31:06] "GET /indexgoods/ HTTP/1.1" 200 2
+[24/Feb/2019 16:31:06] "GET /categorys/ HTTP/1.1" 200 1602
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Feb/2019 16:31:50] "GET /goods/?page=1&top_category=1&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 29740
+[24/Feb/2019 16:31:51] "GET /media/goods/images/8.jpg HTTP/1.1" 200 50948
+[24/Feb/2019 16:31:51] "GET /media/goods/images/2.jpg HTTP/1.1" 200 1965
+[24/Feb/2019 16:31:51] "GET /media/goods/images/7.jpg HTTP/1.1" 200 2662
+[24/Feb/2019 16:31:51] "GET /media/goods/images/3.jpg HTTP/1.1" 200 2683
+[24/Feb/2019 16:31:51] "GET /media/goods/images/4.jpg HTTP/1.1" 200 5455
+[24/Feb/2019 16:31:51] "GET /media/goods/images/1.jpg HTTP/1.1" 200 10197
+[24/Feb/2019 16:31:52] "GET /media/goods/images/5.jpg HTTP/1.1" 200 7879
+[24/Feb/2019 16:31:52] "GET /media/goods/images/6.jpg HTTP/1.1" 200 3891
+[24/Feb/2019 16:31:52] "GET /media/goods/images/9.jpg HTTP/1.1" 200 4033
+[24/Feb/2019 16:31:52] "GET /media/goods/images/11.jpg HTTP/1.1" 200 2813
+[24/Feb/2019 16:31:52] "GET /media/goods/images/12.jpg HTTP/1.1" 200 5823
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Feb/2019 16:31:56] "GET /banners/ HTTP/1.1" 200 124
+[24/Feb/2019 16:31:56] "GET /hotsearchs/ HTTP/1.1" 200 2
+[24/Feb/2019 16:31:56] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[24/Feb/2019 16:31:56] "GET /indexgoods/ HTTP/1.1" 200 2
+[24/Feb/2019 16:31:56] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[24/Feb/2019 16:31:56] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[24/Feb/2019 16:31:56] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[24/Feb/2019 16:31:56] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[24/Feb/2019 16:31:56] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[24/Feb/2019 16:31:56] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[24/Feb/2019 16:31:56] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[24/Feb/2019 16:31:58] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[24/Feb/2019 16:32:13] "GET /categorys/2/ HTTP/1.1" 200 154
+[24/Feb/2019 16:32:13] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[24/Feb/2019 16:32:13] "GET /media/goods/images/19.jpg HTTP/1.1" 200 15375
+[24/Feb/2019 16:32:13] "GET /media/goods/images/24.jpg HTTP/1.1" 200 11665
+[24/Feb/2019 16:32:13] "GET /media/goods/images/25.jpg HTTP/1.1" 200 4670
+[24/Feb/2019 16:32:13] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[24/Feb/2019 16:32:13] "GET /media/goods/images/21.jpg HTTP/1.1" 200 38019
+[24/Feb/2019 16:32:13] "GET /media/goods/images/20.jpg HTTP/1.1" 200 12368
+[24/Feb/2019 16:32:13] "GET /media/goods/images/27.jpg HTTP/1.1" 200 10128
+[24/Feb/2019 16:32:13] "GET /media/goods/images/26.jpg HTTP/1.1" 200 11121
+[24/Feb/2019 16:32:13] "GET /media/goods/images/28.jpg HTTP/1.1" 200 10127
+[24/Feb/2019 16:32:13] "GET /media/goods/images/30.jpg HTTP/1.1" 200 12505
+[24/Feb/2019 16:32:13] "GET /media/goods/images/29.jpg HTTP/1.1" 200 17433
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Feb/2019 16:32:27] "GET /hotsearchs/ HTTP/1.1" 200 2
+[24/Feb/2019 16:32:27] "GET /banners/ HTTP/1.1" 200 124
+[24/Feb/2019 16:32:27] "GET /indexgoods/ HTTP/1.1" 200 2
+[24/Feb/2019 16:32:27] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Feb/2019 16:32:29] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[24/Feb/2019 16:32:29] "GET /media/goods/images/55.jpg HTTP/1.1" 200 5841
+[24/Feb/2019 16:32:29] "GET /media/goods/images/56.jpg HTTP/1.1" 200 2352
+[24/Feb/2019 16:32:29] "GET /media/goods/images/57.jpg HTTP/1.1" 200 17890
+[24/Feb/2019 16:32:29] "GET /media/goods/images/59.jpg HTTP/1.1" 200 5604
+[24/Feb/2019 16:32:29] "GET /media/goods/images/60.jpg HTTP/1.1" 200 3071
+[24/Feb/2019 16:32:29] "GET /media/goods/images/58.jpg HTTP/1.1" 200 9372
+[24/Feb/2019 16:32:29] "GET /media/goods/images/61.jpg HTTP/1.1" 200 23750
+[24/Feb/2019 16:32:29] "GET /media/goods/images/62.jpg HTTP/1.1" 200 54965
+[24/Feb/2019 16:32:29] "GET /media/goods/images/64.jpg HTTP/1.1" 200 12258
+[24/Feb/2019 16:32:29] "GET /media/goods/images/63.jpg HTTP/1.1" 200 3503
+[24/Feb/2019 16:32:29] "GET /media/goods/images/66.jpg HTTP/1.1" 200 2418
+[24/Feb/2019 16:32:29] "GET /media/goods/images/65.jpg HTTP/1.1" 200 4897
+[24/Feb/2019 16:32:31] "GET /hotsearchs/ HTTP/1.1" 200 2
+[24/Feb/2019 16:32:31] "GET /indexgoods/ HTTP/1.1" 200 2
+[24/Feb/2019 16:32:31] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[24/Feb/2019 16:32:31] "GET /categorys/ HTTP/1.1" 200 1602
+[24/Feb/2019 16:32:31] "GET /banners/ HTTP/1.1" 200 124
+[24/Feb/2019 16:32:31] "GET /categorys/6/ HTTP/1.1" 200 161
+[24/Feb/2019 16:32:31] "GET /goods/?page=1&top_category=6&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 28482
+[24/Feb/2019 16:32:31] "GET /media/goods/images/84.jpg HTTP/1.1" 200 3777
+[24/Feb/2019 16:32:31] "GET /media/goods/images/85.jpg HTTP/1.1" 200 3040
+[24/Feb/2019 16:32:31] "GET /media/goods/images/88.jpg HTTP/1.1" 200 2286
+[24/Feb/2019 16:32:31] "GET /media/goods/images/86.jpg HTTP/1.1" 200 5202
+[24/Feb/2019 16:32:31] "GET /media/goods/images/87.jpg HTTP/1.1" 200 4178
+[24/Feb/2019 16:32:33] "GET /hotsearchs/ HTTP/1.1" 200 2
+[24/Feb/2019 16:32:33] "GET /categorys/ HTTP/1.1" 200 1602
+[24/Feb/2019 16:32:33] "GET /goods/84/ HTTP/1.1" 200 19776
+[24/Feb/2019 16:32:33] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[24/Feb/2019 16:32:33] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[24/Feb/2019 16:32:33] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[24/Feb/2019 16:32:33] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+[24/Feb/2019 16:32:34] "OPTIONS /shopcarts/ HTTP/1.1" 200 0
+[24/Feb/2019 16:32:34] "POST /shopcarts/ HTTP/1.1" 401 58
+[24/Feb/2019 16:32:36] "POST /shopcarts/ HTTP/1.1" 401 58
+[24/Feb/2019 16:32:36] "POST /shopcarts/ HTTP/1.1" 401 58
+[24/Feb/2019 16:32:36] "POST /shopcarts/ HTTP/1.1" 401 58
+[24/Feb/2019 16:32:37] "POST /shopcarts/ HTTP/1.1" 401 58
+[24/Feb/2019 16:32:39] "POST /shopcarts/ HTTP/1.1" 401 58
+[24/Feb/2019 16:32:41] "POST /shopcarts/ HTTP/1.1" 401 58
+[24/Feb/2019 16:32:56] "OPTIONS /login/ HTTP/1.1" 200 0
+[24/Feb/2019 16:32:57] "POST /login/ HTTP/1.1" 400 68
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Feb/2019 16:33:08] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[24/Feb/2019 16:33:08] "GET /media/goods/images/89.jpg HTTP/1.1" 200 7068
+[24/Feb/2019 16:33:08] "GET /media/goods/images/91.jpg HTTP/1.1" 200 107531
+[24/Feb/2019 16:33:08] "GET /media/goods/images/92.jpg HTTP/1.1" 200 5055
+[24/Feb/2019 16:33:08] "GET /media/goods/images/93.jpg HTTP/1.1" 200 54306
+[24/Feb/2019 16:33:08] "GET /media/goods/images/94.jpg HTTP/1.1" 200 7057
+[24/Feb/2019 16:33:09] "GET /categorys/4/ HTTP/1.1" 200 156
+[24/Feb/2019 16:33:09] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[24/Feb/2019 16:33:09] "GET /media/goods/images/90.jpg HTTP/1.1" 200 147456
+[24/Feb/2019 16:33:10] "GET /categorys/2/ HTTP/1.1" 200 154
+[24/Feb/2019 16:33:10] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[24/Feb/2019 16:33:11] "GET /banners/ HTTP/1.1" 200 124
+[24/Feb/2019 16:33:11] "GET /indexgoods/ HTTP/1.1" 200 2
+[24/Feb/2019 16:33:11] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[24/Feb/2019 16:33:12] "GET /categorys/9/ HTTP/1.1" 200 163
+[24/Feb/2019 16:33:12] "GET /goods/?page=1&top_category=9&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 173924
+[24/Feb/2019 16:33:12] "GET /media/goods/images/106.jpg HTTP/1.1" 200 7411
+[24/Feb/2019 16:33:12] "GET /media/goods/images/108.jpg HTTP/1.1" 200 7411
+[24/Feb/2019 16:33:12] "GET /media/goods/images/107.jpg HTTP/1.1" 200 5169
+[24/Feb/2019 16:33:19] "GET /hotsearchs/ HTTP/1.1" 200 2
+[24/Feb/2019 16:33:19] "GET /indexgoods/ HTTP/1.1" 200 2
+[24/Feb/2019 16:33:19] "GET /banners/ HTTP/1.1" 200 124
+[24/Feb/2019 16:33:19] "GET /categorys/ HTTP/1.1" 200 1602
+[24/Feb/2019 16:33:19] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[24/Feb/2019 22:04:14] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[25/Feb/2019 08:10:58] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[25/Feb/2019 12:58:53] "GET / HTTP/1.1" 200 573
+[25/Feb/2019 13:00:47] "GET / HTTP/1.1" 200 6758
+[25/Feb/2019 13:00:47] "GET / HTTP/1.1" 200 6758
+[25/Feb/2019 13:00:47] "GET / HTTP/1.1" 200 6758
+[25/Feb/2019 13:00:48] "HEAD / HTTP/1.1" 200 6759
+[25/Feb/2019 13:07:46] code 400, message Bad HTTP/0.9 request type ('RFB')
+[25/Feb/2019 13:07:46] "RFB 003.003" 400 -
+[25/Feb/2019 14:47:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[25/Feb/2019 14:47:14] "  /*à     Cookie: mstshash=Administr" 400 -
+[25/Feb/2019 15:03:01] code 400, message Bad HTTP/0.9 request type ('RFB')
+[25/Feb/2019 15:03:01] "RFB 003.003" 400 -
+[25/Feb/2019 15:52:54] "GET / HTTP/1.0" 200 693
+[25/Feb/2019 15:52:54] "GET / HTTP/1.0" 200 573
+[25/Feb/2019 15:52:55] "GET / HTTP/1.1" 200 6758
+[26/Feb/2019 01:44:11] "GET / HTTP/1.0" 200 693
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[26/Feb/2019 04:21:14] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /http:/www.qq.com/404/search_children.js
+[26/Feb/2019 06:54:23] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 1723
+[26/Feb/2019 06:54:28] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[26/Feb/2019 06:54:28] " PpTi4 " 400 -
+[26/Feb/2019 06:54:28] code 400, message Bad request syntax ('\x05\x01\x00')
+[26/Feb/2019 06:54:28] " " 400 -
+Not Found: /http:/112.124.42.80:63435/
+[26/Feb/2019 10:03:02] "HEAD http://112.124.42.80:63435/ HTTP/1.1" 404 1694
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[26/Feb/2019 14:23:40] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[26/Feb/2019 15:27:35] "GET / HTTP/1.1" 200 573
+[26/Feb/2019 16:58:59] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[26/Feb/2019 16:58:59] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[26/Feb/2019 19:44:30] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[26/Feb/2019 19:44:30] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[27/Feb/2019 00:27:19] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[27/Feb/2019 02:55:58] "GET / HTTP/1.1" 200 573
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[27/Feb/2019 06:59:27] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x01.\x05\x00\x00\x00\x00\x81I¨À\x00\x0c)\x83z»\x01\x00zÚf\x00\x8d\x16Ò~\x9dU\x05ñ\x1fi»©\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ÃÐ¢|¦v½ó\x1eOÑËÜ®Ëd')
+[27/Feb/2019 06:59:27] "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+[27/Feb/2019 09:06:18] "GET / HTTP/1.1" 200 573
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[27/Feb/2019 10:31:57] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[27/Feb/2019 12:37:54] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[27/Feb/2019 12:37:54] "  /*à     Cookie: mstshash=Administr" 400 -
+[27/Feb/2019 12:39:46] "GET / HTTP/1.0" 200 693
+[27/Feb/2019 14:02:41] "GET / HTTP/1.1" 200 573
+[27/Feb/2019 14:09:03] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01')
+[27/Feb/2019 14:09:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[27/Feb/2019 15:54:48] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x00(Á\x00\x00\x00\x00\x12\x00¨À\x00àLºUÐ\x00\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[27/Feb/2019 15:54:48] "   TZ           (Á     ¨À àLºUÐ  tsXrcsXYs9                                      " 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[27/Feb/2019 16:31:16] "GET / HTTP/1.0" 200 693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[27/Feb/2019 20:39:36] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[28/Feb/2019 06:48:21] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[28/Feb/2019 11:40:12] "GET / HTTP/1.1" 200 573
+[28/Feb/2019 11:45:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[28/Feb/2019 11:45:40] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[28/Feb/2019 16:55:51] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[01/Mar/2019 00:28:42] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[01/Mar/2019 00:28:42] "  /*à     Cookie: mstshash=Administr" 400 -
+[01/Mar/2019 02:22:16] "GET / HTTP/1.1" 200 573
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[01/Mar/2019 03:00:22] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /http:/54.252.131.155/reply.php
+[01/Mar/2019 03:02:16] "GET http://54.252.131.155/reply.php?q=eyJpcCI6IjEwNi4xNC4yMDEuNzgiLCJwb3J0IjoiODAwMCIsIm5vZG5zIjp0cnVlLCJ0eXBlIjoiV0VCIiwiaGFzaCI6ImE0MTkyZWQ1NDcyOWE4MzM3ZjlhYWVjYThkMDJiMGViIn0%3D HTTP/1.1" 404 1845
+[01/Mar/2019 03:02:26] code 400, message Bad request syntax ('\x05\x01\x00')
+[01/Mar/2019 03:02:26] " " 400 -
+[01/Mar/2019 03:02:26] code 400, message Bad request syntax ('\x04\x01\x00P6ü\x83\x9b\x00')
+[01/Mar/2019 03:02:26] " P6ü " 400 -
+Not Found: /http:/www.qq.com/404/search_children.js
+[01/Mar/2019 06:09:07] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 1723
+[01/Mar/2019 06:09:12] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[01/Mar/2019 06:09:12] " PpTi4 " 400 -
+[01/Mar/2019 06:09:12] code 400, message Bad request syntax ('\x05\x01\x00')
+[01/Mar/2019 06:09:12] " " 400 -
+[01/Mar/2019 12:40:31] "GET / HTTP/1.1" 200 573
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[01/Mar/2019 13:04:51] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[01/Mar/2019 13:48:42] "GET / HTTP/1.1" 200 573
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[01/Mar/2019 23:10:11] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[02/Mar/2019 06:13:50] code 400, message Bad HTTP/0.9 request type ('RFB')
+[02/Mar/2019 06:13:50] "RFB 003.003" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[02/Mar/2019 09:12:53] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[02/Mar/2019 14:47:45] "GET /hotsearchs/ HTTP/1.1" 200 2
+[02/Mar/2019 14:47:45] "GET /banners/ HTTP/1.1" 200 124
+[02/Mar/2019 14:47:45] "GET /indexgoods/ HTTP/1.1" 200 2
+[02/Mar/2019 14:47:45] "GET /categorys/ HTTP/1.1" 200 1602
+[02/Mar/2019 14:47:45] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[02/Mar/2019 14:47:46] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[02/Mar/2019 14:47:46] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[02/Mar/2019 14:47:46] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[02/Mar/2019 14:47:46] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[02/Mar/2019 14:47:46] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[02/Mar/2019 14:47:46] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[02/Mar/2019 14:47:46] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[02/Mar/2019 14:47:47] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[02/Mar/2019 14:47:48] "GET /hotsearchs/ HTTP/1.1" 200 2
+[02/Mar/2019 14:47:48] "GET /categorys/10/ HTTP/1.1" 200 159
+[02/Mar/2019 14:47:48] "GET /categorys/ HTTP/1.1" 200 1602
+[02/Mar/2019 14:47:48] "GET /goods/?page=1&top_category=10&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 34974
+[02/Mar/2019 14:47:48] "GET /media/goods/images/110.jpg HTTP/1.1" 200 1761
+[02/Mar/2019 14:47:48] "GET /media/goods/images/111.jpg HTTP/1.1" 200 5467
+[02/Mar/2019 14:47:48] "GET /media/goods/images/112.jpg HTTP/1.1" 200 3843
+[02/Mar/2019 14:47:48] "GET /media/goods/images/114.jpg HTTP/1.1" 200 4448
+[02/Mar/2019 14:47:48] "GET /media/goods/images/113.jpg HTTP/1.1" 200 5657
+[02/Mar/2019 14:47:48] "GET /media/goods/images/115.jpg HTTP/1.1" 200 3779
+[02/Mar/2019 14:47:48] "GET /media/goods/images/116.jpg HTTP/1.1" 200 5569
+[02/Mar/2019 14:47:49] "GET /media/goods/images/117.jpg HTTP/1.1" 200 4342
+[02/Mar/2019 14:47:49] "GET /media/goods/images/118.jpg HTTP/1.1" 200 5032
+[02/Mar/2019 14:47:49] "GET /media/goods/images/119.jpg HTTP/1.1" 200 4777
+[02/Mar/2019 14:47:49] "GET /media/goods/images/120.jpg HTTP/1.1" 200 4918
+[02/Mar/2019 14:47:49] "GET /media/goods/images/121.jpg HTTP/1.1" 200 5034
+[02/Mar/2019 14:47:50] "GET /hotsearchs/ HTTP/1.1" 200 2
+[02/Mar/2019 14:47:50] "GET /categorys/ HTTP/1.1" 200 1602
+[02/Mar/2019 14:47:50] "GET /goods/110/ HTTP/1.1" 200 3705
+[02/Mar/2019 14:47:50] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[02/Mar/2019 14:47:50] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[02/Mar/2019 14:47:50] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[02/Mar/2019 14:47:50] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[02/Mar/2019 14:47:50] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+[02/Mar/2019 14:48:09] "GET /hotsearchs/ HTTP/1.1" 200 2
+[02/Mar/2019 14:48:09] "GET /categorys/ HTTP/1.1" 200 1602
+[02/Mar/2019 14:48:09] "GET /goods/111/ HTTP/1.1" 200 3070
+[02/Mar/2019 14:48:09] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[02/Mar/2019 18:56:35] "GET / HTTP/1.1" 200 573
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[02/Mar/2019 19:16:28] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[03/Mar/2019 00:10:44] "GET / HTTP/1.1" 200 6638
+Not Found: /favicon.ico
+[03/Mar/2019 00:10:45] "GET /favicon.ico HTTP/1.1" 404 12256
+[03/Mar/2019 01:08:27] "GET / HTTP/1.1" 200 573
+[03/Mar/2019 03:25:17] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[03/Mar/2019 03:25:17] "  /*à     Cookie: mstshash=Administr" 400 -
+[03/Mar/2019 04:52:32] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[03/Mar/2019 04:52:32] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[03/Mar/2019 05:18:28] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[03/Mar/2019 10:31:53] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[03/Mar/2019 10:31:53] "  /*à     Cookie: mstshash=Administr" 400 -
+[03/Mar/2019 14:05:18] "GET / HTTP/1.0" 200 693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[03/Mar/2019 15:21:32] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[04/Mar/2019 00:03:29] code 400, message Bad request syntax ('\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03àëÈ¾¨\x84z\x88§\x06>9º\x80rIº\x0b\x95\x8a¡\x0b`uËT@\x03\x0béÌ\x0e\x00\x00\x82À0À,À2À.À/À+À1À-\x00¥\x00£\x00¡\x00\x9f\x00¤\x00¢\x00\xa0\x00\x9eÀ(À$À\x14À')
+[04/Mar/2019 00:03:29] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Not Found: /admin/assets/js/views/login.js
+[04/Mar/2019 00:04:15] "GET /admin/assets/js/views/login.js HTTP/1.1" 404 12313
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Mar/2019 01:25:51] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[04/Mar/2019 03:12:20] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x01.\x05\x00\x00\x00\x00\x81I¨À\x00\x0c)\x83z»\x01\x00zÚf\x00\x8d\x16Ò~\x9dU\x05ñ\x1fi»©\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ÃÐ¢|¦v½ó\x1eOÑËÜ®Ëd')
+[04/Mar/2019 03:12:20] "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+[04/Mar/2019 08:38:14] "GET / HTTP/1.1" 200 573
+[04/Mar/2019 10:39:03] "GET / HTTP/1.1" 200 573
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Mar/2019 11:33:24] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[04/Mar/2019 21:23:57] "GET / HTTP/1.0" 200 693
+[04/Mar/2019 21:33:21] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&à\x00\x00\x00\x00\x00Cookie:')
+[04/Mar/2019 21:33:21] "  +&à     Cookie: mstshash=hello" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[04/Mar/2019 21:36:35] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[05/Mar/2019 03:39:04] "GET /categorys/ HTTP/1.1" 200 1602
+Not Found: /http:/www.qq.com/404/search_children.js
+[05/Mar/2019 06:07:12] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 1723
+[05/Mar/2019 06:07:17] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[05/Mar/2019 06:07:17] " PpTi4 " 400 -
+[05/Mar/2019 06:07:17] code 400, message Bad request syntax ('\x05\x01\x00')
+[05/Mar/2019 06:07:17] " " 400 -
+[05/Mar/2019 07:43:33] "GET / HTTP/1.1" 200 573
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[05/Mar/2019 07:45:05] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[05/Mar/2019 17:36:05] "GET / HTTP/1.1" 200 573
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[05/Mar/2019 17:52:04] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[06/Mar/2019 02:55:30] "GET / HTTP/1.1" 200 573
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Mar/2019 03:56:49] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Mar/2019 14:06:00] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[06/Mar/2019 16:35:22] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[06/Mar/2019 16:35:22] "  /*à     Cookie: mstshash=Administr" 400 -
+[06/Mar/2019 18:03:53] "GET / HTTP/1.1" 200 573
+[06/Mar/2019 20:13:44] "GET /banners/ HTTP/1.1" 200 124
+[06/Mar/2019 20:13:44] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:13:44] "GET /indexgoods/ HTTP/1.1" 200 2
+[06/Mar/2019 20:13:44] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:13:44] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[06/Mar/2019 20:13:44] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[06/Mar/2019 20:13:44] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[06/Mar/2019 20:13:44] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[06/Mar/2019 20:13:45] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[06/Mar/2019 20:13:45] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[06/Mar/2019 20:13:46] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[06/Mar/2019 20:13:46] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[06/Mar/2019 20:13:46] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[06/Mar/2019 20:22:41] "GET / HTTP/1.1" 200 6758
+[06/Mar/2019 20:22:41] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+[06/Mar/2019 20:22:41] "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+[06/Mar/2019 20:22:41] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+[06/Mar/2019 20:22:41] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+[06/Mar/2019 20:22:41] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+[06/Mar/2019 20:22:41] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+[06/Mar/2019 20:22:41] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+[06/Mar/2019 20:22:41] "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+[06/Mar/2019 20:22:42] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+[06/Mar/2019 20:22:42] "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+[06/Mar/2019 20:22:42] "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 1748
+[06/Mar/2019 20:22:42] "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+Not Found: /favicon.ico
+[06/Mar/2019 20:22:43] "GET /favicon.ico HTTP/1.1" 404 12256
+[06/Mar/2019 20:23:58] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:23:58] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:23:58] "GET /banners/ HTTP/1.1" 200 124
+[06/Mar/2019 20:23:58] "GET /indexgoods/ HTTP/1.1" 200 2
+[06/Mar/2019 20:23:58] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:23:58] "GET /banners/ HTTP/1.1" 200 124
+[06/Mar/2019 20:23:58] "GET /indexgoods/ HTTP/1.1" 200 2
+[06/Mar/2019 20:23:58] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:23:58] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[06/Mar/2019 20:23:58] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[06/Mar/2019 20:27:14] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:27:14] "GET /banners/ HTTP/1.1" 200 124
+[06/Mar/2019 20:27:14] "GET /indexgoods/ HTTP/1.1" 200 2
+[06/Mar/2019 20:27:14] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:27:14] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[06/Mar/2019 20:29:00] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:29:00] "GET /banners/ HTTP/1.1" 200 124
+[06/Mar/2019 20:29:00] "GET /indexgoods/ HTTP/1.1" 200 2
+[06/Mar/2019 20:29:00] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:29:00] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:29:00] "GET /banners/ HTTP/1.1" 200 124
+[06/Mar/2019 20:29:00] "GET /indexgoods/ HTTP/1.1" 200 2
+[06/Mar/2019 20:29:00] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:29:00] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[06/Mar/2019 20:29:00] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[06/Mar/2019 20:39:56] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:39:56] "GET /indexgoods/ HTTP/1.1" 200 2
+[06/Mar/2019 20:39:56] "GET /banners/ HTTP/1.1" 200 124
+[06/Mar/2019 20:39:56] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:39:56] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[06/Mar/2019 20:44:01] "GET /hotsearchs/ HTTP/1.1" 200 2
+Not Found: /categorys/15/
+[06/Mar/2019 20:44:01] "GET /categorys/15/ HTTP/1.1" 404 23
+[06/Mar/2019 20:44:01] "GET /goods/?page=1&top_category=15&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 52
+[06/Mar/2019 20:44:01] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:44:05] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:44:05] "GET /categorys/10/ HTTP/1.1" 200 159
+[06/Mar/2019 20:44:05] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:44:05] "GET /goods/?page=1&top_category=10&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 34974
+[06/Mar/2019 20:44:05] "GET /media/goods/images/110.jpg HTTP/1.1" 200 1761
+[06/Mar/2019 20:44:05] "GET /media/goods/images/111.jpg HTTP/1.1" 200 5467
+[06/Mar/2019 20:44:05] "GET /media/goods/images/117.jpg HTTP/1.1" 200 4342
+[06/Mar/2019 20:44:05] "GET /media/goods/images/116.jpg HTTP/1.1" 200 5569
+[06/Mar/2019 20:44:05] "GET /media/goods/images/112.jpg HTTP/1.1" 200 3843
+[06/Mar/2019 20:44:05] "GET /media/goods/images/113.jpg HTTP/1.1" 200 5657
+[06/Mar/2019 20:44:05] "GET /media/goods/images/114.jpg HTTP/1.1" 200 4448
+[06/Mar/2019 20:44:05] "GET /media/goods/images/115.jpg HTTP/1.1" 200 3779
+[06/Mar/2019 20:44:05] "GET /media/goods/images/118.jpg HTTP/1.1" 200 5032
+[06/Mar/2019 20:44:05] "GET /media/goods/images/119.jpg HTTP/1.1" 200 4777
+[06/Mar/2019 20:44:05] "GET /media/goods/images/120.jpg HTTP/1.1" 200 4918
+[06/Mar/2019 20:44:05] "GET /media/goods/images/121.jpg HTTP/1.1" 200 5034
+[06/Mar/2019 20:44:26] "GET /categorys/3/ HTTP/1.1" 200 161
+[06/Mar/2019 20:44:26] "GET /goods/?page=1&top_category=3&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 110647
+[06/Mar/2019 20:44:26] "GET /media/goods/images/37.jpg HTTP/1.1" 200 2908
+[06/Mar/2019 20:44:26] "GET /media/goods/images/38.jpg HTTP/1.1" 200 8330
+[06/Mar/2019 20:44:26] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[06/Mar/2019 20:44:26] "GET /media/goods/images/40.jpg HTTP/1.1" 200 1661
+[06/Mar/2019 20:44:26] "GET /media/goods/images/41.jpg HTTP/1.1" 200 12807
+[06/Mar/2019 20:44:26] "GET /media/goods/images/42.jpg HTTP/1.1" 200 2739
+[06/Mar/2019 20:44:26] "GET /media/goods/images/43.jpg HTTP/1.1" 200 1857
+[06/Mar/2019 20:44:26] "GET /media/goods/images/44.jpg HTTP/1.1" 200 7395
+[06/Mar/2019 20:44:26] "GET /media/goods/images/45.jpg HTTP/1.1" 200 3400
+[06/Mar/2019 20:44:26] "GET /media/goods/images/46.jpg HTTP/1.1" 200 24346
+[06/Mar/2019 20:44:26] "GET /media/goods/images/47.jpg HTTP/1.1" 200 4369
+[06/Mar/2019 20:44:26] "GET /media/goods/images/48.jpg HTTP/1.1" 200 6005
+[06/Mar/2019 20:44:29] "GET /banners/ HTTP/1.1" 200 124
+[06/Mar/2019 20:44:29] "GET /indexgoods/ HTTP/1.1" 200 2
+[06/Mar/2019 20:44:29] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[06/Mar/2019 20:45:27] "GET /categorys/2/ HTTP/1.1" 200 154
+[06/Mar/2019 20:45:27] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[06/Mar/2019 20:45:27] "GET /media/goods/images/19.jpg HTTP/1.1" 200 15375
+[06/Mar/2019 20:45:27] "GET /media/goods/images/20.jpg HTTP/1.1" 200 12368
+[06/Mar/2019 20:45:27] "GET /media/goods/images/21.jpg HTTP/1.1" 200 38019
+[06/Mar/2019 20:45:27] "GET /media/goods/images/24.jpg HTTP/1.1" 200 11665
+[06/Mar/2019 20:45:27] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[06/Mar/2019 20:45:27] "GET /media/goods/images/25.jpg HTTP/1.1" 200 4670
+[06/Mar/2019 20:45:27] "GET /media/goods/images/26.jpg HTTP/1.1" 200 11121
+[06/Mar/2019 20:45:27] "GET /media/goods/images/27.jpg HTTP/1.1" 200 10128
+[06/Mar/2019 20:45:27] "GET /media/goods/images/28.jpg HTTP/1.1" 200 10127
+[06/Mar/2019 20:45:27] "GET /media/goods/images/29.jpg HTTP/1.1" 200 17433
+[06/Mar/2019 20:45:27] "GET /media/goods/images/30.jpg HTTP/1.1" 200 12505
+[06/Mar/2019 20:45:29] "GET /categorys/4/ HTTP/1.1" 200 156
+[06/Mar/2019 20:45:29] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[06/Mar/2019 20:45:29] "GET /media/goods/images/55.jpg HTTP/1.1" 200 5841
+[06/Mar/2019 20:45:29] "GET /media/goods/images/56.jpg HTTP/1.1" 200 2352
+[06/Mar/2019 20:45:29] "GET /media/goods/images/57.jpg HTTP/1.1" 200 17890
+[06/Mar/2019 20:45:29] "GET /media/goods/images/59.jpg HTTP/1.1" 200 5604
+[06/Mar/2019 20:45:29] "GET /media/goods/images/60.jpg HTTP/1.1" 200 3071
+[06/Mar/2019 20:45:29] "GET /media/goods/images/58.jpg HTTP/1.1" 200 9372
+[06/Mar/2019 20:45:29] "GET /media/goods/images/61.jpg HTTP/1.1" 200 23750
+[06/Mar/2019 20:45:30] "GET /media/goods/images/63.jpg HTTP/1.1" 200 3503
+[06/Mar/2019 20:45:30] "GET /media/goods/images/64.jpg HTTP/1.1" 200 12258
+[06/Mar/2019 20:45:30] "GET /media/goods/images/65.jpg HTTP/1.1" 200 4897
+[06/Mar/2019 20:45:30] "GET /media/goods/images/66.jpg HTTP/1.1" 200 2418
+[06/Mar/2019 20:45:30] "GET /media/goods/images/62.jpg HTTP/1.1" 200 54965
+[06/Mar/2019 20:45:31] "GET /categorys/7/ HTTP/1.1" 200 160
+[06/Mar/2019 20:45:31] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[06/Mar/2019 20:45:31] "GET /media/goods/images/89.jpg HTTP/1.1" 200 7068
+[06/Mar/2019 20:45:31] "GET /media/goods/images/92.jpg HTTP/1.1" 200 5055
+[06/Mar/2019 20:45:31] "GET /media/goods/images/94.jpg HTTP/1.1" 200 7057
+[06/Mar/2019 20:45:31] "GET /media/goods/images/93.jpg HTTP/1.1" 200 54306
+[06/Mar/2019 20:45:32] "GET /media/goods/images/91.jpg HTTP/1.1" 200 107531
+[06/Mar/2019 20:45:32] "GET /categorys/2/ HTTP/1.1" 200 154
+[06/Mar/2019 20:45:32] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[06/Mar/2019 20:45:33] "GET /media/goods/images/90.jpg HTTP/1.1" 200 98304
+[06/Mar/2019 20:45:36] "GET /banners/ HTTP/1.1" 200 124
+[06/Mar/2019 20:45:36] "GET /indexgoods/ HTTP/1.1" 200 2
+[06/Mar/2019 20:45:36] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[06/Mar/2019 20:45:36] "GET /categorys/2/ HTTP/1.1" 200 154
+[06/Mar/2019 20:45:37] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[06/Mar/2019 20:45:39] "GET /goods/?page=2&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 12524
+[06/Mar/2019 20:45:39] "GET /media/goods/images/31.jpg HTTP/1.1" 200 5099
+[06/Mar/2019 20:45:39] "GET /media/goods/images/32.jpg HTTP/1.1" 200 2214
+[06/Mar/2019 20:45:39] "GET /media/goods/images/33.jpg HTTP/1.1" 200 19427
+[06/Mar/2019 20:45:39] "GET /media/goods/images/34.jpg HTTP/1.1" 200 15690
+[06/Mar/2019 20:45:39] "GET /media/goods/images/35.jpg HTTP/1.1" 200 21754
+[06/Mar/2019 20:45:47] "GET /categorys/4/ HTTP/1.1" 200 156
+[06/Mar/2019 20:45:47] "GET /goods/?page=2&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 22425
+[06/Mar/2019 20:45:47] "GET /media/goods/images/67.jpg HTTP/1.1" 200 4066
+[06/Mar/2019 20:45:47] "GET /media/goods/images/68.jpg HTTP/1.1" 200 2489
+[06/Mar/2019 20:45:47] "GET /media/goods/images/72.jpg HTTP/1.1" 200 31661
+[06/Mar/2019 20:45:47] "GET /media/goods/images/69.jpg HTTP/1.1" 200 44662
+[06/Mar/2019 20:45:47] "GET /media/goods/images/71.jpg HTTP/1.1" 200 92895
+[06/Mar/2019 20:45:49] "GET /categorys/7/ HTTP/1.1" 200 160
+Not Found: /goods/
+[06/Mar/2019 20:45:49] "GET /goods/?page=2&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 404 26
+[06/Mar/2019 20:45:50] "GET /categorys/9/ HTTP/1.1" 200 163
+Not Found: /goods/
+[06/Mar/2019 20:45:50] "GET /goods/?page=2&top_category=9&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 404 26
+[06/Mar/2019 20:45:54] "GET /categorys/7/ HTTP/1.1" 200 160
+Not Found: /goods/
+[06/Mar/2019 20:45:55] "GET /goods/?page=2&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 404 26
+[06/Mar/2019 20:45:56] "GET /categorys/8/ HTTP/1.1" 200 161
+Not Found: /goods/
+[06/Mar/2019 20:45:56] "GET /goods/?page=2&top_category=8&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 404 26
+[06/Mar/2019 20:46:00] "GET /categorys/2/ HTTP/1.1" 200 154
+[06/Mar/2019 20:46:00] "GET /goods/?page=2&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 12524
+[06/Mar/2019 20:46:02] "GET /categorys/3/ HTTP/1.1" 200 161
+[06/Mar/2019 20:46:02] "GET /goods/?page=2&top_category=3&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 18085
+[06/Mar/2019 20:46:02] "GET /media/goods/images/49.jpg HTTP/1.1" 200 4959
+[06/Mar/2019 20:46:02] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+[06/Mar/2019 20:46:02] "GET /media/goods/images/50.jpg HTTP/1.1" 200 1690
+[06/Mar/2019 20:46:02] "GET /media/goods/images/52.jpg HTTP/1.1" 200 6018
+[06/Mar/2019 20:46:02] "GET /media/goods/images/53.jpg HTTP/1.1" 200 6682
+[06/Mar/2019 20:46:02] "GET /media/goods/images/54.jpg HTTP/1.1" 200 4003
+[06/Mar/2019 20:46:07] "GET /categorys/6/ HTTP/1.1" 200 161
+Not Found: /goods/
+[06/Mar/2019 20:46:07] "GET /goods/?page=2&top_category=6&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 404 26
+[06/Mar/2019 20:46:13] "GET /categorys/7/ HTTP/1.1" 200 160
+Not Found: /goods/
+[06/Mar/2019 20:46:13] "GET /goods/?page=2&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 404 26
+[06/Mar/2019 20:46:14] "GET /categorys/8/ HTTP/1.1" 200 161
+Not Found: /goods/
+[06/Mar/2019 20:46:14] "GET /goods/?page=2&top_category=8&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 404 26
+[06/Mar/2019 20:46:16] "GET /categorys/10/ HTTP/1.1" 200 159
+[06/Mar/2019 20:46:16] "GET /goods/?page=2&top_category=10&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 16447
+[06/Mar/2019 20:46:16] "GET /media/goods/images/122.jpg HTTP/1.1" 200 2411
+[06/Mar/2019 20:46:16] "GET /media/goods/images/124.jpg HTTP/1.1" 200 6036
+[06/Mar/2019 20:46:16] "GET /media/goods/images/123.jpg HTTP/1.1" 200 4440
+[06/Mar/2019 20:46:16] "GET /media/goods/images/125.jpg HTTP/1.1" 200 6464
+[06/Mar/2019 20:46:16] "GET /media/goods/images/126.jpg HTTP/1.1" 200 2983
+[06/Mar/2019 20:46:16] "GET /media/goods/images/127.jpg HTTP/1.1" 200 3186
+[06/Mar/2019 20:46:40] "GET /categorys/2/ HTTP/1.1" 200 154
+[06/Mar/2019 20:46:40] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[06/Mar/2019 20:46:43] "GET /goods/?page=2&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 12524
+[06/Mar/2019 20:46:49] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:46:49] "GET /categorys/7/ HTTP/1.1" 200 160
+[06/Mar/2019 20:46:49] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:46:49] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[06/Mar/2019 20:46:52] "GET /media/goods/images/90.jpg HTTP/1.1" 200 529746
+[06/Mar/2019 20:46:54] "GET /categorys/4/ HTTP/1.1" 200 156
+[06/Mar/2019 20:46:54] "GET /goods/?page=2&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 22425
+[06/Mar/2019 20:46:58] "GET /categorys/7/ HTTP/1.1" 200 160
+Not Found: /goods/
+[06/Mar/2019 20:46:58] "GET /goods/?page=2&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 404 26
+[06/Mar/2019 20:47:13] "GET /categorys/4/ HTTP/1.1" 200 156
+[06/Mar/2019 20:47:14] "GET /goods/?page=2&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 22425
+[06/Mar/2019 20:47:14] "GET /categorys/7/ HTTP/1.1" 200 160
+Not Found: /goods/
+[06/Mar/2019 20:47:14] "GET /goods/?page=2&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 404 26
+[06/Mar/2019 20:47:15] "GET /categorys/4/ HTTP/1.1" 200 156
+[06/Mar/2019 20:47:15] "GET /goods/?page=2&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 22425
+Not Found: /goods/
+[06/Mar/2019 20:47:16] "GET /goods/?page=2&top_category=4&ordering=-add_time&pricemin=15&pricemax=20 HTTP/1.1" 404 26
+Not Found: /goods/
+[06/Mar/2019 20:47:17] "GET /goods/?page=2&top_category=4&ordering=-add_time&pricemin=40&pricemax=80 HTTP/1.1" 404 26
+[06/Mar/2019 20:47:33] "GET /categorys/2/ HTTP/1.1" 200 154
+[06/Mar/2019 20:47:33] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[06/Mar/2019 20:48:49] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:48:50] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:48:50] "GET /goods/19/ HTTP/1.1" 200 1383
+[06/Mar/2019 20:48:50] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[06/Mar/2019 20:48:50] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[06/Mar/2019 20:50:26] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:50:26] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:50:26] "GET /goods/19/ HTTP/1.1" 200 1383
+[06/Mar/2019 20:50:26] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[06/Mar/2019 20:52:30] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:52:30] "GET /categorys/10/ HTTP/1.1" 200 159
+[06/Mar/2019 20:52:30] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:52:30] "GET /goods/?page=1&top_category=10&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 34974
+[06/Mar/2019 20:52:31] "GET /media/goods/images/110.jpg HTTP/1.1" 200 1761
+[06/Mar/2019 20:52:31] "GET /media/goods/images/111.jpg HTTP/1.1" 200 5467
+[06/Mar/2019 20:52:31] "GET /media/goods/images/113.jpg HTTP/1.1" 200 5657
+[06/Mar/2019 20:52:31] "GET /media/goods/images/112.jpg HTTP/1.1" 200 3843
+[06/Mar/2019 20:52:31] "GET /media/goods/images/114.jpg HTTP/1.1" 200 4448
+[06/Mar/2019 20:52:31] "GET /media/goods/images/115.jpg HTTP/1.1" 200 3779
+[06/Mar/2019 20:52:31] "GET /media/goods/images/116.jpg HTTP/1.1" 200 5569
+[06/Mar/2019 20:52:31] "GET /media/goods/images/117.jpg HTTP/1.1" 200 4342
+[06/Mar/2019 20:52:31] "GET /media/goods/images/118.jpg HTTP/1.1" 200 5032
+[06/Mar/2019 20:52:31] "GET /media/goods/images/119.jpg HTTP/1.1" 200 4777
+[06/Mar/2019 20:52:31] "GET /media/goods/images/121.jpg HTTP/1.1" 200 5034
+[06/Mar/2019 20:52:31] "GET /media/goods/images/120.jpg HTTP/1.1" 200 4918
+[06/Mar/2019 20:52:33] "GET /banners/ HTTP/1.1" 200 124
+[06/Mar/2019 20:52:33] "GET /indexgoods/ HTTP/1.1" 200 2
+[06/Mar/2019 20:52:33] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[06/Mar/2019 20:52:33] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[06/Mar/2019 20:52:33] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[06/Mar/2019 20:52:33] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[06/Mar/2019 20:52:33] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[06/Mar/2019 20:52:33] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[06/Mar/2019 20:52:34] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[06/Mar/2019 20:52:34] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[06/Mar/2019 20:52:35] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[06/Mar/2019 20:53:23] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:53:23] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:53:23] "GET /goods/1/ HTTP/1.1" 200 1845
+[06/Mar/2019 20:53:23] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[06/Mar/2019 20:53:23] "GET /media/goods/images/1.jpg HTTP/1.1" 200 10197
+[06/Mar/2019 20:53:23] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[06/Mar/2019 20:53:23] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[06/Mar/2019 20:53:23] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[06/Mar/2019 20:53:23] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+[06/Mar/2019 20:54:21] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 20:54:21] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 20:54:22] "GET /goods/1/ HTTP/1.1" 200 1845
+[06/Mar/2019 20:54:22] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[06/Mar/2019 21:02:11] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 21:02:11] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 21:02:11] "GET /goods/18/ HTTP/1.1" 200 1671
+[06/Mar/2019 21:02:11] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[06/Mar/2019 21:02:13] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 21:02:13] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[06/Mar/2019 21:02:13] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 21:02:13] "GET /goods/23/ HTTP/1.1" 200 1005
+[06/Mar/2019 21:11:00] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 21:11:00] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 21:11:00] "GET /goods/23/ HTTP/1.1" 200 1005
+[06/Mar/2019 21:11:00] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[06/Mar/2019 21:11:03] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 21:11:03] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[06/Mar/2019 21:11:04] "GET /goods/51/ HTTP/1.1" 200 3314
+[06/Mar/2019 21:11:04] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 21:17:17] "GET /categorys/4/ HTTP/1.1" 200 156
+[06/Mar/2019 21:17:18] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[06/Mar/2019 21:17:18] "GET /media/goods/images/55.jpg HTTP/1.1" 200 5841
+[06/Mar/2019 21:17:18] "GET /media/goods/images/56.jpg HTTP/1.1" 200 2352
+[06/Mar/2019 21:17:18] "GET /media/goods/images/57.jpg HTTP/1.1" 200 17890
+[06/Mar/2019 21:17:18] "GET /media/goods/images/60.jpg HTTP/1.1" 200 3071
+[06/Mar/2019 21:17:18] "GET /media/goods/images/59.jpg HTTP/1.1" 200 5604
+[06/Mar/2019 21:17:18] "GET /media/goods/images/58.jpg HTTP/1.1" 200 9372
+[06/Mar/2019 21:17:18] "GET /media/goods/images/61.jpg HTTP/1.1" 200 23750
+[06/Mar/2019 21:17:18] "GET /media/goods/images/63.jpg HTTP/1.1" 200 3503
+[06/Mar/2019 21:17:18] "GET /media/goods/images/65.jpg HTTP/1.1" 200 4897
+[06/Mar/2019 21:17:18] "GET /media/goods/images/64.jpg HTTP/1.1" 200 12258
+[06/Mar/2019 21:17:18] "GET /media/goods/images/66.jpg HTTP/1.1" 200 2418
+[06/Mar/2019 21:17:18] "GET /media/goods/images/62.jpg HTTP/1.1" 200 54965
+[06/Mar/2019 21:19:06] "GET /hotsearchs/ HTTP/1.1" 200 2
+[06/Mar/2019 21:19:06] "GET /categorys/ HTTP/1.1" 200 1602
+[06/Mar/2019 21:19:06] "GET /goods/55/ HTTP/1.1" 200 3444
+[06/Mar/2019 21:19:06] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[06/Mar/2019 22:28:44] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[06/Mar/2019 22:28:44] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[06/Mar/2019 23:20:44] "GET / HTTP/1.1" 200 573
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Mar/2019 00:13:27] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Not Found: /www.baidu.com:443
+[07/Mar/2019 10:32:21] "CONNECT www.baidu.com:443 HTTP/1.0" 404 1662
+Not Found: /http:/112.124.42.80:63435/
+[07/Mar/2019 13:09:45] "HEAD http://112.124.42.80:63435/ HTTP/1.1" 404 1694
+[07/Mar/2019 16:17:00] "GET /indexgoods/ HTTP/1.1" 200 2
+[07/Mar/2019 16:17:00] "GET /hotsearchs/ HTTP/1.1" 200 2
+[07/Mar/2019 16:17:00] "GET /categorys/ HTTP/1.1" 200 1602
+[07/Mar/2019 16:17:00] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[07/Mar/2019 16:17:00] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[07/Mar/2019 16:17:00] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[07/Mar/2019 16:17:00] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[07/Mar/2019 16:17:00] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[07/Mar/2019 16:17:00] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[07/Mar/2019 16:17:01] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[07/Mar/2019 16:17:09] "GET /hotsearchs/ HTTP/1.1" 200 2
+[07/Mar/2019 16:17:09] "GET /banners/ HTTP/1.1" 200 124
+[07/Mar/2019 16:17:09] "GET /indexgoods/ HTTP/1.1" 200 2
+[07/Mar/2019 16:17:09] "GET /categorys/ HTTP/1.1" 200 1602
+[07/Mar/2019 16:17:09] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[07/Mar/2019 16:17:10] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[07/Mar/2019 19:28:41] "GET / HTTP/1.1" 200 573
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Mar/2019 20:28:43] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[07/Mar/2019 23:44:02] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[07/Mar/2019 23:44:02] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.qq.com/404/search_children.js
+[08/Mar/2019 06:14:13] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 1723
+[08/Mar/2019 06:14:18] code 400, message Bad request syntax ('\x05\x01\x00')
+[08/Mar/2019 06:14:18] " " 400 -
+[08/Mar/2019 06:14:18] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[08/Mar/2019 06:14:18] " PpTi4 " 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Mar/2019 06:37:36] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[08/Mar/2019 07:03:49] "GET / HTTP/1.0" 200 693
+[08/Mar/2019 09:04:48] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00&!à\x00\x00\x00\x00\x00Cookie:')
+[08/Mar/2019 09:04:48] "  &!à     Cookie: mstshash=" 400 -
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[08/Mar/2019 10:04:13] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 10:04:13] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 10:04:13] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 10:04:13] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[08/Mar/2019 10:04:13] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 10:04:14] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[08/Mar/2019 10:04:14] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[08/Mar/2019 10:04:14] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[08/Mar/2019 10:04:14] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[08/Mar/2019 10:04:14] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[08/Mar/2019 10:04:14] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[08/Mar/2019 10:04:15] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[08/Mar/2019 10:04:33] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 10:04:33] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 10:04:33] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 10:04:33] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 10:04:33] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 10:04:36] "GET /categorys/4/ HTTP/1.1" 200 156
+[08/Mar/2019 10:04:36] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[08/Mar/2019 10:04:36] "GET /media/goods/images/58.jpg HTTP/1.1" 200 9372
+[08/Mar/2019 10:04:36] "GET /media/goods/images/56.jpg HTTP/1.1" 200 2352
+[08/Mar/2019 10:04:36] "GET /media/goods/images/55.jpg HTTP/1.1" 200 5841
+[08/Mar/2019 10:04:36] "GET /media/goods/images/57.jpg HTTP/1.1" 200 17890
+[08/Mar/2019 10:04:36] "GET /media/goods/images/59.jpg HTTP/1.1" 200 5604
+[08/Mar/2019 10:04:36] "GET /media/goods/images/60.jpg HTTP/1.1" 200 3071
+[08/Mar/2019 10:04:37] "GET /media/goods/images/62.jpg HTTP/1.1" 200 54965
+[08/Mar/2019 10:04:37] "GET /media/goods/images/61.jpg HTTP/1.1" 200 23750
+[08/Mar/2019 10:04:37] "GET /media/goods/images/63.jpg HTTP/1.1" 200 3503
+[08/Mar/2019 10:04:37] "GET /media/goods/images/64.jpg HTTP/1.1" 200 12258
+[08/Mar/2019 10:04:37] "GET /media/goods/images/65.jpg HTTP/1.1" 200 4897
+[08/Mar/2019 10:04:37] "GET /media/goods/images/66.jpg HTTP/1.1" 200 2418
+[08/Mar/2019 10:04:37] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 10:04:37] "GET /goods/55/ HTTP/1.1" 200 3444
+[08/Mar/2019 10:04:37] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 10:04:37] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 10:04:37] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[08/Mar/2019 10:04:37] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[08/Mar/2019 10:04:37] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[08/Mar/2019 10:04:37] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[08/Mar/2019 10:04:45] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 10:04:45] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 10:04:48] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 10:04:48] "GET /categorys/10/ HTTP/1.1" 200 159
+[08/Mar/2019 10:04:48] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 10:04:48] "GET /goods/?page=1&top_category=10&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 34974
+[08/Mar/2019 10:04:48] "GET /media/goods/images/116.jpg HTTP/1.1" 200 5569
+[08/Mar/2019 10:04:48] "GET /media/goods/images/117.jpg HTTP/1.1" 200 4342
+[08/Mar/2019 10:04:48] "GET /media/goods/images/111.jpg HTTP/1.1" 200 5467
+[08/Mar/2019 10:04:48] "GET /media/goods/images/110.jpg HTTP/1.1" 200 1761
+[08/Mar/2019 10:04:48] "GET /media/goods/images/112.jpg HTTP/1.1" 200 3843
+[08/Mar/2019 10:04:48] "GET /media/goods/images/113.jpg HTTP/1.1" 200 5657
+[08/Mar/2019 10:04:48] "GET /media/goods/images/114.jpg HTTP/1.1" 200 4448
+[08/Mar/2019 10:04:48] "GET /media/goods/images/115.jpg HTTP/1.1" 200 3779
+[08/Mar/2019 10:04:48] "GET /media/goods/images/118.jpg HTTP/1.1" 200 5032
+[08/Mar/2019 10:04:48] "GET /media/goods/images/121.jpg HTTP/1.1" 200 5034
+[08/Mar/2019 10:04:48] "GET /media/goods/images/119.jpg HTTP/1.1" 200 4777
+[08/Mar/2019 10:04:48] "GET /media/goods/images/120.jpg HTTP/1.1" 200 4918
+[08/Mar/2019 10:04:51] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 10:04:51] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 10:04:51] "GET /goods/112/ HTTP/1.1" 200 5427
+[08/Mar/2019 10:04:51] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 10:04:59] "GET /categorys/7/ HTTP/1.1" 200 160
+[08/Mar/2019 10:04:59] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[08/Mar/2019 10:04:59] "GET /media/goods/images/89.jpg HTTP/1.1" 200 7068
+[08/Mar/2019 10:04:59] "GET /media/goods/images/91.jpg HTTP/1.1" 200 107531
+[08/Mar/2019 10:04:59] "GET /media/goods/images/92.jpg HTTP/1.1" 200 5055
+[08/Mar/2019 10:04:59] "GET /media/goods/images/93.jpg HTTP/1.1" 200 54306
+[08/Mar/2019 10:04:59] "GET /media/goods/images/94.jpg HTTP/1.1" 200 7057
+[08/Mar/2019 10:05:00] "GET /categorys/9/ HTTP/1.1" 200 163
+[08/Mar/2019 10:05:01] "GET /categorys/4/ HTTP/1.1" 200 156
+[08/Mar/2019 10:05:01] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[08/Mar/2019 10:05:02] "GET /categorys/2/ HTTP/1.1" 200 154
+[08/Mar/2019 10:05:02] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[08/Mar/2019 10:05:03] "GET /media/goods/images/25.jpg HTTP/1.1" 200 4670
+[08/Mar/2019 10:05:03] "GET /media/goods/images/27.jpg HTTP/1.1" 200 10128
+[08/Mar/2019 10:05:03] "GET /media/goods/images/26.jpg HTTP/1.1" 200 11121
+[08/Mar/2019 10:05:03] "GET /media/goods/images/28.jpg HTTP/1.1" 200 10127
+[08/Mar/2019 10:05:03] "GET /media/goods/images/29.jpg HTTP/1.1" 200 17433
+[08/Mar/2019 10:05:03] "GET /media/goods/images/30.jpg HTTP/1.1" 200 12505
+[08/Mar/2019 10:05:03] "GET /media/goods/images/19.jpg HTTP/1.1" 200 15375
+[08/Mar/2019 10:05:04] "GET /goods/?page=1&top_category=9&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 173924
+[08/Mar/2019 10:05:04] "GET /media/goods/images/20.jpg HTTP/1.1" 200 12368
+[08/Mar/2019 10:05:04] "GET /media/goods/images/21.jpg HTTP/1.1" 200 38019
+[08/Mar/2019 10:05:04] "GET /media/goods/images/24.jpg HTTP/1.1" 200 11665
+[08/Mar/2019 10:05:04] "GET /media/goods/images/106.jpg HTTP/1.1" 200 7411
+[08/Mar/2019 10:05:04] "GET /media/goods/images/107.jpg HTTP/1.1" 200 5169
+[08/Mar/2019 10:05:04] "GET /media/goods/images/108.jpg HTTP/1.1" 200 7411
+[08/Mar/2019 10:05:05] "GET /media/goods/images/90.jpg HTTP/1.1" 200 393216
+[08/Mar/2019 10:05:07] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 10:05:07] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 10:05:07] "GET /goods/106/ HTTP/1.1" 200 8831
+[08/Mar/2019 10:05:07] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[08/Mar/2019 10:07:08] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[08/Mar/2019 10:07:10] "GET /media/goods/images/90.jpg HTTP/1.1" 200 529746
+[08/Mar/2019 10:07:25] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 10:07:25] "GET /goods/91/ HTTP/1.1" 200 6135
+[08/Mar/2019 10:07:25] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 10:07:25] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 10:07:25] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 10:07:25] "GET /categorys/7/ HTTP/1.1" 200 160
+[08/Mar/2019 10:07:25] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 10:07:25] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[08/Mar/2019 10:41:50] "GET /goods/?page=1&top_category=9&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 173924
+[08/Mar/2019 10:41:51] "GET /categorys/7/ HTTP/1.1" 200 160
+[08/Mar/2019 10:41:51] "GET /goods/?page=1&top_category=7&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 23716
+[08/Mar/2019 10:41:51] "GET /categorys/4/ HTTP/1.1" 200 156
+[08/Mar/2019 10:41:52] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[08/Mar/2019 10:41:58] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 10:41:58] "GET /goods/60/ HTTP/1.1" 200 3267
+[08/Mar/2019 10:41:58] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 10:41:58] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 10:59:18] "GET / HTTP/1.1" 200 573
+[08/Mar/2019 11:07:58] "GET / HTTP/1.0" 200 693
+[08/Mar/2019 11:07:59] "GET / HTTP/1.0" 200 693
+[08/Mar/2019 11:46:46] "GET / HTTP/1.0" 200 693
+[08/Mar/2019 14:27:17] "GET / HTTP/1.0" 200 693
+[08/Mar/2019 15:13:58] "GET / HTTP/1.0" 200 693
+[08/Mar/2019 15:21:21] "GET / HTTP/1.1" 200 6638
+[08/Mar/2019 15:56:04] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[08/Mar/2019 15:56:04] "  /*à     Cookie: mstshash=Administr" 400 -
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[08/Mar/2019 16:52:53] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[08/Mar/2019 18:14:05] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 18:14:05] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 18:14:05] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 18:14:05] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 18:14:05] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 18:14:05] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[08/Mar/2019 18:14:05] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[08/Mar/2019 18:14:05] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[08/Mar/2019 18:14:05] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[08/Mar/2019 18:14:05] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[08/Mar/2019 18:14:06] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[08/Mar/2019 18:14:06] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[08/Mar/2019 18:14:07] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[08/Mar/2019 18:24:04] "GET /goods/?page=1&top_category=2&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 25972
+[08/Mar/2019 18:24:04] "GET /media/goods/images/20.jpg HTTP/1.1" 200 12368
+[08/Mar/2019 18:24:04] "GET /media/goods/images/19.jpg HTTP/1.1" 200 15375
+[08/Mar/2019 18:24:04] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[08/Mar/2019 18:24:04] "GET /media/goods/images/21.jpg HTTP/1.1" 200 38019
+[08/Mar/2019 18:24:04] "GET /media/goods/images/24.jpg HTTP/1.1" 200 11665
+[08/Mar/2019 18:24:04] "GET /media/goods/images/25.jpg HTTP/1.1" 200 4670
+[08/Mar/2019 18:24:04] "GET /media/goods/images/26.jpg HTTP/1.1" 200 11121
+[08/Mar/2019 18:24:04] "GET /media/goods/images/27.jpg HTTP/1.1" 200 10128
+[08/Mar/2019 18:24:04] "GET /media/goods/images/29.jpg HTTP/1.1" 200 17433
+[08/Mar/2019 18:24:04] "GET /media/goods/images/28.jpg HTTP/1.1" 200 10127
+[08/Mar/2019 18:24:04] "GET /media/goods/images/30.jpg HTTP/1.1" 200 12505
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[08/Mar/2019 18:43:10] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 18:43:10] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 18:43:10] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 18:43:10] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[08/Mar/2019 18:43:40] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 18:43:40] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 18:43:40] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 18:43:40] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 18:43:41] "GET /media/banner/banner1.png HTTP/1.1" 200 96704
+[08/Mar/2019 18:43:42] "GET /media/goods/images/15.jpg HTTP/1.1" 200 5494
+[08/Mar/2019 18:43:42] "GET /media/goods/images/22.jpg HTTP/1.1" 200 39977
+[08/Mar/2019 18:43:42] "GET /media/goods/images/10.jpg HTTP/1.1" 200 3489
+[08/Mar/2019 18:43:42] "GET /media/goods/images/36.jpg HTTP/1.1" 200 12431
+[08/Mar/2019 18:43:42] "GET /media/goods/images/98.jpg HTTP/1.1" 200 6994
+[08/Mar/2019 18:43:42] "GET /media/goods/images/109.jpg HTTP/1.1" 200 3115
+[08/Mar/2019 18:43:42] "GET /media/goods/images/70.jpg HTTP/1.1" 200 119265
+[08/Mar/2019 18:43:58] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 18:43:58] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 18:43:58] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 18:43:58] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 18:43:58] "GET /media/banner/banner1.png HTTP/1.1" 304 0
+[08/Mar/2019 18:43:58] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 18:43:58] "GET /media/goods/images/10.jpg HTTP/1.1" 304 0
+[08/Mar/2019 18:43:58] "GET /media/goods/images/15.jpg HTTP/1.1" 304 0
+[08/Mar/2019 18:43:58] "GET /media/goods/images/22.jpg HTTP/1.1" 304 0
+[08/Mar/2019 18:43:58] "GET /media/goods/images/36.jpg HTTP/1.1" 304 0
+[08/Mar/2019 18:43:58] "GET /media/goods/images/98.jpg HTTP/1.1" 304 0
+[08/Mar/2019 18:43:58] "GET /media/goods/images/70.jpg HTTP/1.1" 304 0
+[08/Mar/2019 18:43:58] "GET /media/goods/images/109.jpg HTTP/1.1" 304 0
+[08/Mar/2019 18:43:59] "GET /categorys/4/ HTTP/1.1" 200 156
+[08/Mar/2019 18:43:59] "GET /goods/?page=1&top_category=4&ordering=-add_time&pricemin=&pricemax= HTTP/1.1" 200 36631
+[08/Mar/2019 18:43:59] "GET /media/goods/images/55.jpg HTTP/1.1" 200 5841
+[08/Mar/2019 18:43:59] "GET /media/goods/images/57.jpg HTTP/1.1" 200 17890
+[08/Mar/2019 18:43:59] "GET /media/goods/images/56.jpg HTTP/1.1" 200 2352
+[08/Mar/2019 18:43:59] "GET /media/goods/images/59.jpg HTTP/1.1" 200 5604
+[08/Mar/2019 18:43:59] "GET /media/goods/images/58.jpg HTTP/1.1" 200 9372
+[08/Mar/2019 18:43:59] "GET /media/goods/images/60.jpg HTTP/1.1" 200 3071
+[08/Mar/2019 18:43:59] "GET /media/goods/images/61.jpg HTTP/1.1" 200 23750
+[08/Mar/2019 18:43:59] "GET /media/goods/images/62.jpg HTTP/1.1" 200 54965
+[08/Mar/2019 18:43:59] "GET /media/goods/images/63.jpg HTTP/1.1" 200 3503
+[08/Mar/2019 18:43:59] "GET /media/goods/images/65.jpg HTTP/1.1" 200 4897
+[08/Mar/2019 18:43:59] "GET /media/goods/images/64.jpg HTTP/1.1" 200 12258
+[08/Mar/2019 18:43:59] "GET /media/goods/images/66.jpg HTTP/1.1" 200 2418
+[08/Mar/2019 18:45:00] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 18:45:00] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 18:45:00] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 18:45:00] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 18:45:00] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 18:45:03] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 18:45:03] "GET /goods/56/ HTTP/1.1" 200 3607
+[08/Mar/2019 18:45:03] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 18:45:03] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 18:45:03] "GET /media/goods/images/18.jpg HTTP/1.1" 200 9516
+[08/Mar/2019 18:45:03] "GET /media/goods/images/23.jpg HTTP/1.1" 200 10252
+[08/Mar/2019 18:45:03] "GET /media/goods/images/51.jpg HTTP/1.1" 200 5957
+[08/Mar/2019 18:45:03] "GET /media/goods/images/39.jpg HTTP/1.1" 200 4244
+[08/Mar/2019 18:45:22] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 18:45:22] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 18:45:22] "GET /goods/56/ HTTP/1.1" 200 3607
+[08/Mar/2019 18:45:22] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 18:45:48] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 18:45:48] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 18:45:48] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 18:45:48] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 18:45:48] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 18:45:51] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 18:45:51] "GET /goods/56/ HTTP/1.1" 200 3607
+[08/Mar/2019 18:45:51] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 18:45:51] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 18:47:24] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 18:47:24] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 18:47:24] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 18:47:24] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 18:47:24] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 18:47:28] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 18:47:28] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 18:47:28] "GET /goods/56/ HTTP/1.1" 200 3607
+[08/Mar/2019 18:47:28] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:07:43] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 19:07:43] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 19:07:43] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:07:43] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:07:43] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 19:07:46] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:07:46] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:07:46] "GET /goods/56/ HTTP/1.1" 200 3607
+[08/Mar/2019 19:07:46] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:07:51] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:07:51] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:07:51] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:07:51] "GET /goods/56/ HTTP/1.1" 200 3607
+[08/Mar/2019 19:07:54] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:07:54] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:07:54] "GET /goods/56/ HTTP/1.1" 200 3607
+[08/Mar/2019 19:07:54] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:08:24] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:08:24] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 19:08:24] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 19:08:24] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:08:24] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 19:08:27] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:08:27] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:08:27] "GET /goods/56/ HTTP/1.1" 200 3607
+[08/Mar/2019 19:08:27] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:08:29] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:08:29] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:08:29] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:08:29] "GET /goods/57/ HTTP/1.1" 200 2637
+[08/Mar/2019 19:08:36] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:08:36] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:08:36] "GET /goods/57/ HTTP/1.1" 200 2637
+[08/Mar/2019 19:08:36] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:13:23] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:13:23] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 19:13:23] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 19:13:23] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:13:23] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 19:13:27] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:13:28] "GET /goods/57/ HTTP/1.1" 200 2637
+[08/Mar/2019 19:13:28] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:13:28] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:13:29] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:13:29] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:13:29] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:13:29] "GET /goods/60/ HTTP/1.1" 200 3267
+[08/Mar/2019 19:13:36] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:13:36] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:13:36] "GET /goods/56/ HTTP/1.1" 200 3607
+[08/Mar/2019 19:13:36] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:13:45] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:13:45] "GET /goods/56/ HTTP/1.1" 200 3607
+[08/Mar/2019 19:13:45] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:13:45] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:13:49] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:13:49] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:13:49] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:13:49] "GET /goods/60/ HTTP/1.1" 200 3267
+[08/Mar/2019 19:13:59] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:13:59] "GET /banners/ HTTP/1.1" 200 124
+[08/Mar/2019 19:13:59] "GET /indexgoods/ HTTP/1.1" 200 2
+[08/Mar/2019 19:13:59] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:13:59] "GET /goods/?is_new=true HTTP/1.1" 200 17456
+[08/Mar/2019 19:14:00] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:14:00] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:14:00] "GET /goods/55/ HTTP/1.1" 200 3444
+[08/Mar/2019 19:14:00] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:14:02] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:14:02] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:14:02] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:14:02] "GET /goods/55/ HTTP/1.1" 200 3444
+[08/Mar/2019 19:14:03] "GET /hotsearchs/ HTTP/1.1" 200 2
+[08/Mar/2019 19:14:03] "GET /goods/?is_hot=true HTTP/1.1" 200 9584
+[08/Mar/2019 19:14:03] "GET /categorys/ HTTP/1.1" 200 1602
+[08/Mar/2019 19:14:03] "GET /goods/55/ HTTP/1.1" 200 3444
+[08/Mar/2019 20:20:42] "GET / HTTP/1.0" 200 693
+[08/Mar/2019 22:35:22] "GET / HTTP/1.0" 200 693
+Traceback (most recent call last):
+  File "/usr/lib/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.5/dist-packages/django/core/servers/basehttp.py", line 139, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.5/socket.py", line 575, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[08/Mar/2019 23:24:22] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x10\x04\x01.\x05\x00\x00\x00\x00\x81I¨À\x00\x0c)\x83z»\x01\x00zÚf\x00\x8d\x16Ò~\x9dU\x05ñ\x1fi»©\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ÃÐ¢|¦v½ó\x1eOÑËÜ®Ëd')
+[08/Mar/2019 23:24:22] "   TZ         .    I¨À )z» zÚf Ò~Uñi»©                ÃÐ¢|¦v½óOÑËÜ®Ëd" 400 -
+[08/Mar/2019 23:54:35] "GET / HTTP/1.1" 200 573
+[09/Mar/2019 00:38:15] "GET / HTTP/1.0" 200 693
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[09/Mar/2019 02:56:43] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+[09/Mar/2019 04:40:13] "GET / HTTP/1.0" 200 693
+[09/Mar/2019 04:40:17] "GET / HTTP/1.0" 200 693
+[09/Mar/2019 04:48:28] "GET / HTTP/1.0" 200 693
+[09/Mar/2019 10:09:18] "GET / HTTP/1.0" 200 693
